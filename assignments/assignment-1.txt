@@ -1,0 +1,35 @@
+Calcualtor app:
+	1. library
+		- class (Calculation)
+			-methods: two arguments (number), returns a number
+				- Add
+				- Subtract
+				- Multiply
+				- Divide
+
+	2. console app (has to add reference to the library)
+		- call those 4 methods present in the library
+			- print the choices for all the 4 options
+			- ask the choice from user
+			- ask user for two numbers
+			- based on the choice you call 1 of the 4 methods
+			- the code should be executed once by default
+			- after that ask use whether to continue or not
+			- depending on that the progran will continue or end
+
+options
+-----------------------
+1. Add
+2. subtract
+3. multiply
+4. divide
+
+enter a choice[1/2/3/4]: ---
+
+enter 1st number: ---
+enter 2nd number: ---
+
+calling <add/subtract/multiply/divide> method
+result: ---
+
+would you like to continue[y/n/Y/N]:---
