@@ -34,11 +34,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorClient\\CalculatorClient.csproj",
+      "projectUniqueName": "e:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorClient\\CalculatorClient.csproj",
       "projectName": "CalculatorClient",
-      "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorClient\\CalculatorClient.csproj",
+      "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorClient\\CalculatorClient.csproj",
       "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
-      "outputPath": "E:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorClient\\obj\\",
+      "outputPath": "e:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorClient\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -60,8 +60,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorLibrary\\CalculatorLibrary.csproj": {
-              "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorLibrary\\CalculatorLibrary.csproj"
+            "e:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorLibrary\\CalculatorLibrary.csproj": {
+              "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-1\\calculatorassignment\\CalculatorLibrary\\CalculatorLibrary.csproj"
             }
           }
         }

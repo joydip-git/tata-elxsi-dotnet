@@ -16,8 +16,8 @@
             int c;
             Swipe(a, ref b, out c);
             System.Console.WriteLine("a: " + a + ", b: " + b + ",c: " + c);
-
-            System.Console.WriteLine("enter a date: ");
+         
+            System.Console.Write("enter a date: ");
             string value = Console.ReadLine();
             if (value != null && value != string.Empty)
             {

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj": {}
+    "e:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj": {}
   },
   "projects": {
-    "E:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj": {
+    "e:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj",
+        "projectUniqueName": "e:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj",
         "projectName": "PssingValue_Reference_Out",
-        "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj",
+        "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\PssingValue_Reference_Out.csproj",
         "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
-        "outputPath": "E:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\obj\\",
+        "outputPath": "e:\\tata-elxsi-dotnet\\codes\\day-1\\PssingValue_Reference_Out\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

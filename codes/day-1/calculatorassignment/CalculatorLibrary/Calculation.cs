@@ -16,6 +16,11 @@ public class Calculation
     }
     public int Divide(int firstNumber, int secondNumber)
     {
+        if (secondNumber == 0)
+        {
+            throw new System.DivideByZeroException("denominator should not be zero");
+        }
+
         return (firstNumber / secondNumber);
     }
 }
