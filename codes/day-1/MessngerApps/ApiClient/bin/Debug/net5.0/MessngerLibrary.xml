@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MessngerLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:MessngerLibrary.Messenger">
+            <summary>
+            Messenger class
+            </summary>
+        </member>
+        <member name="M:MessngerLibrary.Messenger.ShowMessage(System.String)">
+            <summary>
+            the method to display a message
+            </summary>
+            <param name="name">
+            name of a person
+            </param>
+            <returns>
+            returns a string (message)
+            </returns>
+        </member>
+    </members>
+</doc>

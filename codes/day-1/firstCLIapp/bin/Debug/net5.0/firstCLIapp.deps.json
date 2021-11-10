@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "firstCLIapp/1.0.0": {
+        "dependencies": {
+          "MessngerLibrary": "1.0.0"
+        },
+        "runtime": {
+          "firstCLIapp.dll": {}
+        }
+      },
+      "MessngerLibrary/1.0.0": {
+        "runtime": {
+          "MessngerLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "firstCLIapp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MessngerLibrary/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

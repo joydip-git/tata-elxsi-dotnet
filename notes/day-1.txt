@@ -66,4 +66,49 @@ nuget + github
 .NET standard (guideline) - NOT a framework
 
 
+Library apps:
+	- reusable component
+		 - contains logic (business/data access logic)
+		 - produce result/output and return the same to the consumer
+	- when compiled produces .DLL extension output file (Assembly)
+	- no Main method
+	- can be used from any other app by adding reference to this application/assembly
+
+creating app using dotnet cli tool:
+dotnet new console --name firstCLIapp
+
+compiling the app using cli tool: (when in the project directory)
+>dotnet build
+
+adding reference to an existing project using CLI tool:(when in the project directory)
+>dotnet add firstCLIapp.csproj reference "E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\MessngerLibrary.csproj"
+Reference `..\MessngerApps\MessngerLibrary\MessngerLibrary.csproj` added to the project.
+
+run the app using cli tool:(when in the project directory)
+>dotnet run
+
+create new solution file: (first create a blank directory and then move inside of that)
+>dotnet new sln
+
+add reference to a project from the solution file:
+>dotnet sln add "E:\tata-elxsi-dotnet\codes\day-1\sol-demo\sample"
+
+
+Year			version
+--------------------------------------------
+2001			1.0
+2003			1.1
+2005			2.0
+2007			3.0
+2008			3.5
+2010			4.0
+2012			5.0
+2013			5.0
+2015			6.0
+2017			7.0 (targetted for .NET core 2.0)
+2019			8.0 (targetted for .NET core 3.0)
+2021			9.0 (targetted for .NET 5.0)
+2021			10.0 (targetted for .NET 6.0)
+
+
 	

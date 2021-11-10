@@ -1,0 +1,13 @@
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\bin\Debug\net5.0\MessngerLibrary.deps.json
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\bin\Debug\net5.0\MessngerLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\bin\Debug\net5.0\ref\MessngerLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\bin\Debug\net5.0\MessngerLibrary.pdb
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\bin\Debug\net5.0\MessngerLibrary.xml
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\MessngerLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\MessngerLibrary.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\MessngerLibrary.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\MessngerLibrary.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\MessngerLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\ref\MessngerLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\MessngerLibrary.pdb
+E:\tata-elxsi-dotnet\codes\day-1\MessngerApps\MessngerLibrary\obj\Debug\net5.0\MessngerLibrary.csproj.AssemblyReference.cache
