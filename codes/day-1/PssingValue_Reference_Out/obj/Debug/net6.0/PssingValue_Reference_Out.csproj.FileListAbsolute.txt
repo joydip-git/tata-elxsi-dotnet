@@ -1,0 +1,15 @@
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\bin\Debug\net6.0\PssingValue_Reference_Out.exe
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\bin\Debug\net6.0\PssingValue_Reference_Out.deps.json
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\bin\Debug\net6.0\PssingValue_Reference_Out.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\bin\Debug\net6.0\PssingValue_Reference_Out.dll
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\bin\Debug\net6.0\ref\PssingValue_Reference_Out.dll
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\bin\Debug\net6.0\PssingValue_Reference_Out.pdb
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.dll
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\ref\PssingValue_Reference_Out.dll
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.pdb
+E:\tata-elxsi-dotnet\codes\day-1\PssingValue_Reference_Out\obj\Debug\net6.0\PssingValue_Reference_Out.genruntimeconfig.cache

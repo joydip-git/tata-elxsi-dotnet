@@ -24,6 +24,14 @@ namespace CalculatorClient
             int number = int.Parse(Console.ReadLine());
             return number;
         }
+        public static void GetInput(out int first, out int second)
+        {
+            System.Console.Write("Enter 1st Number: ");
+            first = int.Parse(Console.ReadLine());
+
+            System.Console.Write("Enter 2nd Number: ");
+            second = int.Parse(Console.ReadLine());
+        }
         public static int UseCalculator(int choice, Calculation calculation, int firstNumber, int secondNumber)
         {
             int result = 0;
@@ -68,8 +76,12 @@ namespace CalculatorClient
                 PrintOptions();
                 int choice = GetChoice();
 
-                int firstInput = GetInput();
-                int secondInput = GetInput();
+                // int firstInput = GetInput();
+                // int secondInput = GetInput();
+
+                int firstInput;
+                int secondInput;
+                GetInput(out firstInput, out secondInput);
 
                 int result = UseCalculator(choice, calculation, firstInput, secondInput);
                 System.Console.WriteLine("Result: " + result);

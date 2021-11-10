@@ -113,5 +113,9 @@ Year			version
 SOLID:
 S: single responsibility
 
+Pass by value
+Pass by refernce
+Pass by out
+
 
 	
