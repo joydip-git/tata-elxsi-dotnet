@@ -1,0 +1,69 @@
+Languages:
+	VC#.NET:
+		- OOP lnaguage
+		- type-safe language
+	VB.NET
+	VC++.NET
+	....
+
+.NET Platform:
+
+	.NET Framework: (2001 - 4.8) - legacy framework
+		- mainly targetted for windows machines
+		- development environment
+	
+		a. library (FCL/BCL - Framework/Base class library)
+		b. runtime (CLR - Common Language Runtime)
+		c. data access technique - ADO.NET (ActiveX Data Object)
+		d. web technology (ASP.NET - Active Server Pages)
+		e. EF
+
+	.NET Products
+		- Editors - VS, VS Code
+		- servers - SQL Server
+			  - 
+
+	.NET Services
+		- windows services
+		- web services
+
+.NET framework application execution
+	a. source code --> C#/VB compiler (csc/vbc) --> output code (.exe)[assembly]
+	assembly contains CIL/MSIL/IL code 
+
+	b. run the exe file (CLR) - IL Code --> JIT (CLR) --> machine level code
+
+applications:
+	stand-alone (executable) and library (dll)
+	a. standalone apps will contain Main method
+	b. libraries will not have Main method
+
+tools:
+	ildasm tool: 
+	C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\bin\NETFX 4.7.1 Tools
+	Other .NET DLLs: c:\windows\Microsoft.NET\
+
+ILDASM: Intermediate Language Disassembler - to view the assembly 
+	
+
+.NET Core framework: (2016 - 1.0, 1.1, 2.0, 2.1, 2.2, 3.0, 3.1, 5.0, 6.0)
+	- cross platform
+
+.NET 6.0/5.0/3.1 
+	- core library
+	- runtime
+		- core runtime
+		- asp.net core runtime
+		- deskptop runtime
+	- compilers (roslyn)
+	- EF core for ADO.NET
+	- asp.net core application (and asp.net core runtime)
+	- deskptop application
+	- CLI tool (dotnet)
+
+nuget + github
+
+.NET standard (guideline) - NOT a framework
+
+
+	

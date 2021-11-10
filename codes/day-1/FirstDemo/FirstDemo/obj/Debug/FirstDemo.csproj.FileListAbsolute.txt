@@ -1,0 +1,7 @@
+E:\tata-elxsi-dotnet\codes\day-1\FirstDemo\FirstDemo\bin\Debug\FirstDemo.exe.config
+E:\tata-elxsi-dotnet\codes\day-1\FirstDemo\FirstDemo\bin\Debug\FirstDemo.exe
+E:\tata-elxsi-dotnet\codes\day-1\FirstDemo\FirstDemo\bin\Debug\FirstDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-1\FirstDemo\FirstDemo\obj\Debug\FirstDemo.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-1\FirstDemo\FirstDemo\obj\Debug\FirstDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-1\FirstDemo\FirstDemo\obj\Debug\FirstDemo.exe
+E:\tata-elxsi-dotnet\codes\day-1\FirstDemo\FirstDemo\obj\Debug\FirstDemo.pdb
