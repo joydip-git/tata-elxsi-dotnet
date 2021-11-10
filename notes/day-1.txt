@@ -110,5 +110,8 @@ Year			version
 2021			9.0 (targetted for .NET 5.0)
 2021			10.0 (targetted for .NET 6.0)
 
+SOLID:
+S: single responsibility
+
 
 	

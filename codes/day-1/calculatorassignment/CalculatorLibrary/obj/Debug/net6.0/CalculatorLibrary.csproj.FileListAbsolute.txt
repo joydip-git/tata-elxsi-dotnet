@@ -1,0 +1,12 @@
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\bin\Debug\net6.0\CalculatorLibrary.deps.json
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\bin\Debug\net6.0\CalculatorLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\bin\Debug\net6.0\ref\CalculatorLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\bin\Debug\net6.0\CalculatorLibrary.pdb
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\ref\CalculatorLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-1\calculatorassignment\CalculatorLibrary\obj\Debug\net6.0\CalculatorLibrary.pdb
