@@ -1,0 +1,149 @@
+﻿//v1
+using System;
+
+namespace PersonManagementSystem.Entities
+{
+    public class Person
+    {
+        string name;
+        string emailId;
+        long mobileNumber;
+        string location;
+
+        //default constructor
+        public Person()
+        {
+
+        }
+        //public Person(string personName)
+        //{
+        //    name = personName;         
+        //}
+        //parameterized constructor
+        public Person(string personName, string email, long mobile, string place)
+        {
+            name = personName;
+            emailId = email;
+            mobileNumber = mobile;
+            location = place;
+        }
+
+        public string Name
+        {
+            set { this.name = value; }
+            get { return this.name; }
+        }
+
+        //property function
+        public long MobileNumber
+        {
+            //public void SetMobileNumber(long value)
+            set
+            {
+                // value --> auto-declared variable of set accessor
+                this.mobileNumber = value;
+            }
+            //public long GetMobileNumber()
+            get
+            {
+                return this.mobileNumber;
+            }
+        }
+
+        public string EmailId
+        {
+            get => emailId;
+            set => emailId = value;
+        }
+        public string Location
+        {
+            get => location;
+            set => location = value;
+        }
+
+        //public void SetMobileNumber(long updatedMobileNumber)
+        //{
+        //    this.mobileNumber = updatedMobileNumber;
+        //}
+        //public long GetMobileNumber()
+        //{
+        //    return this.mobileNumber;
+        //}
+        public string GetInformation()
+        {
+            return this.name + " " + this.location;
+        }
+    }
+}
+
+//v2.
+using System;
+
+namespace PersonManagementSystem.Entities
+{
+    public class Person
+    {
+        #region  Data Members
+        string name;
+        string emailId;
+        readonly long mobileNumber;
+        string location;
+        //static string company = "Tata Elxsi";
+        #endregion
+
+        #region Constructors
+        public Person()
+        {
+
+        }
+
+        public Person(string personName, string email, long mobile, string place)
+        {
+            name = personName;
+            emailId = email;
+            mobileNumber = mobile;
+            location = place;
+        }
+        #endregion
+
+        #region Properties
+        public string Name
+        {
+            set { this.name = value; }
+            get { return this.name; }
+        }
+
+        public long MobileNumber
+        {
+            //set
+            //{
+            //    this.mobileNumber = value;
+            //}
+            get
+            {
+                return this.mobileNumber;
+            }
+        }
+
+        public string EmailId
+        {
+            get => emailId;
+            set => emailId = value;
+        }
+
+        public string Location
+        {
+            get => location;
+            set => location = value;
+        }
+        #endregion
+
+        #region Methods
+        public string GetInformation()
+        {
+            return this.name + " " + this.location;
+        }
+        #endregion
+    }
+}
+

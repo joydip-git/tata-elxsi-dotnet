@@ -1,0 +1,163 @@
+1. Array
+2. params keyword
+3. OOP
+	a. class, object
+	b. constructor
+	c. members
+	d. access specifiers
+	e. inheritance
+	f. base and this keyword
+	g. polymorphism - static and dynamic
+	h. static, readonly, const, sealed
+	i. interface
+4. exceptions
+5. generics and collections
+
+//library
+namespace FibonacciLibrary
+{
+	public class Fibonacci
+	{
+		public int GetFibonacci(int number)
+		{
+  			if(number>=0)
+			{
+				//code
+			}
+			else
+				throw new Exception("number should be greater than or equal to zero");
+		}
+	}
+}
+
+//unit test case (add ref to fibo lib)
+namespace FibonacciTestLibrary
+{
+	[TestClass]
+	public class FibonacciTest
+	{
+		[TestMethod]
+		public voud GetFibonacciTestWithPositiveValue()
+		{
+			Fibonacci fb = new Fibonacci();
+			int actual = fb.GetFibonacci(6);
+			Assert.AreEqaul(actual,8);
+		}
+		[TestMethod]
+		public voud GetFibonacciTestWithZeroValue()
+		{
+			Fibonacci fb = new Fibonacci();
+			int actual = fb.GetFibonacci(0);
+			Assert.AreEqaul(actual,0);
+		}
+		[TestMethod]
+		[ExpectedException(typeof(Exception))]
+		public voud GetFibonacciTestWithNegativeValue()
+		{
+			Fibonacci fb = new Fibonacci();
+			fb.GetFibonacci(-1);			
+		}
+	}
+}
+
+//console app: add reference to the fibo library
+class Program
+{
+	static int GetANumber()
+	{
+   		cw("enter  number: ");
+   		int number = int.Parse(Console.ReadLine());
+   		return number;
+	}
+	static void Main()
+	{
+   		int number = GetANumber();
+		Fibonacci fb = new Fibonacci();
+   		int result = fb.GetFibonacci(number)
+   		cw(result);
+	}
+}
+
+//library:
+employee:
+attributes
+	name, id, basic, da, hra
+properties??
+functionality:
+	calculatesalary=> 
+		return type: void
+		arguments: none
+NOTE: no cw/cr inside the calculatesalary method
+
+//console: (add ref to the emp lib)
+1. create an array where you can store employees
+2. create at least 2/3 employees (with different values)
+3. save all the objects of employee in that array
+4. iterate through the array and calculate salary of every employee and print
+
+class Employee
+{
+   public string Name{set;get;}
+}
+
+class Program
+{
+  Main()
+  {
+    employee e1 = new Employee { Name = ''};
+  }
+}
+
+class User
+{
+   
+}
+
+class: (blue print)
+ - data members
+ - functionalities
+
+class access specifiers:
+public, internal (default)
+
+class members access specifiers:
+public, private (default), protected, internal, protected internal
+
+purpose of OOP:
+ - data abstraction
+ - implementational abstraction
+
+constructor:
+	- initialize data members of the class
+		- default  - default values (string->null, numbers->0, boolean -> false)
+		- parameterized - user values
+
+property:
+ - a way to encapsulate data member
+ - property function 
+ - accessed like any 'public' data member
+ - collection of maximum two functions inside (shorthand notaion set, get)
+ - set accessor and get accessor
+ - a property at a time can have any one or both acessors
+ - property having only set accessor: write-only
+ - property having only get accessor: read-only
+
+C# 3.0:
+auto-implemented properties/automatic properties
+Object-Initializer technique
+
+Inside class:
+ - data members
+ - constructors
+ - properties
+ - methods
+
+
+
+
+
+
+
+
+
+
