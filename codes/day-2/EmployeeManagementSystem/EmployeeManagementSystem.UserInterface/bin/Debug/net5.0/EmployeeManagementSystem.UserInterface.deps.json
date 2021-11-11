@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "EmployeeManagementSystem.UserInterface/1.0.0": {
+        "dependencies": {
+          "EmployeeManagementSystem.Entities": "1.0.0"
+        },
+        "runtime": {
+          "EmployeeManagementSystem.UserInterface.dll": {}
+        }
+      },
+      "EmployeeManagementSystem.Entities/1.0.0": {
+        "runtime": {
+          "EmployeeManagementSystem.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "EmployeeManagementSystem.UserInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EmployeeManagementSystem.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

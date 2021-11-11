@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\bin\Debug\net5.0\PolymorphismDemo.exe
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\bin\Debug\net5.0\PolymorphismDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\bin\Debug\net5.0\PolymorphismDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\bin\Debug\net5.0\PolymorphismDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\bin\Debug\net5.0\PolymorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\bin\Debug\net5.0\ref\PolymorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\bin\Debug\net5.0\PolymorphismDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\ref\PolymorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-2\PolymorphismDemo\PolymorphismDemo\obj\Debug\net5.0\PolymorphismDemo.genruntimeconfig.cache

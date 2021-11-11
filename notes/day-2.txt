@@ -78,22 +78,6 @@ class Program
 	}
 }
 
-//library:
-employee:
-attributes
-	name, id, basic, da, hra
-properties??
-functionality:
-	calculatesalary=> 
-		return type: void
-		arguments: none
-NOTE: no cw/cr inside the calculatesalary method
-
-//console: (add ref to the emp lib)
-1. create an array where you can store employees
-2. create at least 2/3 employees (with different values)
-3. save all the objects of employee in that array
-4. iterate through the array and calculate salary of every employee and print
 
 class Employee
 {
@@ -151,6 +135,120 @@ Inside class:
  - constructors
  - properties
  - methods
+
+
+inheritance:
+	 - acquiring/inheriting members of one type into another type
+	 - reusability
+	 - constructors are not inherited from one class to another
+	 - private members of one class are inherited into the child class, but they are not visible/accessible in the child class
+	 - in order to make the private members visible/accessible in the child class use "protected" access speicifier with the base class members
+
+constructor execution sequence:
+	 - when you create object of a child class, base class's default constructor gets invoked (when you call child class's constructor)
+	 - from child class's constructor you can also explicitly call base class's parameterized constructor, using "base" keyword
+
+ class A
+    {
+        int m;
+
+        public A() { }
+
+        public A(int j)
+        {
+            this.m = j;
+        }
+        
+    }
+    class B : A
+    {
+        int n;
+
+        public B()
+        {
+
+        }
+        public B(int x, int y) : base(x)
+        {
+            this.n = y;
+        }
+    }
+
+B obj = new B(10,20);
+
+Polymorphism:
+
+compile-time/static polymorphism:
+Note: it is about a single class
+a. method overloading:
+1. number of arguments
+2. data type of arguments
+3. position of data arguments
+
+b. operator overloading:
+type of operands decide the operation
+
+dynamic polymorphism:
+Note: it invloves more than one (at least two - a parent and a child class)
+
+			Person
+			virtual Cut()
+
+HairStylist		FilmDirector		Butcher
+override Cut(){//code}	override Cut(){//code}	override Cut(){//code}
+
+choice =1, 2, 3
+
+Person person = null;
+switch(choice)
+{
+	case 1:
+	person = new HairStylist();
+	break;
+
+	case 2:
+	person = new FilmDirector();
+	break;
+
+	case 3:
+	person = new Butcher();
+	break;
+}
+
+person.Cut();
+
+class Control
+{
+	virtual ReSize(){//default code}
+}
+
+class TextBox:Control
+{
+	override ReSize(){//code}
+}
+
+class DropDownList:Control
+{
+	override ReSize(){//code}
+}
+
+
+Control control= null;
+switch(choice)
+{
+	case 1:
+	control= new TextBox();
+	break;
+
+	case 2:
+	control= new DropDownList();
+	break;
+
+}
+
+control.ReSize()
+
+
 
 
 

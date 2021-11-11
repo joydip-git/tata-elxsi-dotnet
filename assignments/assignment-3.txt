@@ -1,0 +1,29 @@
+//library:
+employee:
+attributes
+	name, id, basic, da, hra
+properties??
+functionality:
+	calculatesalary=> 
+		return type: void
+		arguments: none
+NOTE: no cw/cr inside the calculatesalary method
+
+two types of employees:
+hr: name, id, basic, da, hra, gratuity, totalsalary
+functionality:
+	calculatesalary=> 
+		return type: void
+		arguments: none
+
+developer: name, id, basic, da, hra, incentive, totalsalary
+functionality:
+	calculatesalary=> 
+		return type: void
+		arguments: none
+
+//console: (add ref to the emp lib)
+1. create an array where you can store employees
+2. create at least 2 employees (one hr, one developer)
+3. save all the objects of employee in that array
+4. iterate through the array and calculate salary of every employee and print
