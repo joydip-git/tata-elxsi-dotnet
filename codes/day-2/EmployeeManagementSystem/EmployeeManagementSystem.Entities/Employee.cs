@@ -1,29 +1,13 @@
-﻿using System;
-
-namespace EmployeeManagementSystem.Entities
+﻿namespace EmployeeManagementSystem.Entities
 {
     public class Employee
     {
-        #region Data Members
-        //private int id;
-        //private string name;
-        //private decimal basicPayment;
-        //private decimal daPayment;
-        //private decimal hraPayment;
-        //private decimal totalSalary;
-        #endregion
-
+        
         #region Constructors
         public Employee() { }
 
         public Employee(int id, string name, decimal basicPayment, decimal daPayment, decimal hraPayment)
         {
-            //this.id = id;
-            //this.name = name;
-            //this.basicPayment = basicPayment;
-            //this.daPayment = daPayment;
-            //this.hraPayment = hraPayment;
-
             this.Id = id;
             this.Name = name;
             this.BasicPayment = basicPayment;
@@ -34,47 +18,42 @@ namespace EmployeeManagementSystem.Entities
         #endregion
 
         #region Properties
-        public decimal TotalSalary
-        {
-            get;// { return totalSalary; }
-            private set;// { totalSalary = value; }
-        }
+        public decimal TotalSalary { get; protected set; }
 
         public decimal HraPayment
         {
-            get;// { return hraPayment; }
-            set;// { hraPayment = value; }
+            get;
+            set;
         }
 
         public decimal DaPayment
         {
-            get;// { return daPayment; }
-            set;// { daPayment = value; }
+            get;
+            set;
         }
 
         public decimal BasicPayment
         {
-            get;// { return basicPayment; }
-            set;// { basicPayment = value; }
+            get;
+            set;
         }
 
         public string Name
         {
-            get; //{ return name; }
-            set;// { name = value; }
+            get;
+            set;
         }
 
         public int Id
         {
-            get;// { return id; }
-            set;// { id = value; }
+            get;
+            set;
         }
         #endregion 
 
         #region Methods
-        public void CalculateSalary()
+        public virtual void CalculateSalary()
         {
-            // this.totalSalary = this.basicPayment + this.daPayment + this.hraPayment;
             this.TotalSalary = this.BasicPayment + this.DaPayment + this.HraPayment;
         }
         #endregion

@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EmployeeManagementSystem.Entities
+﻿namespace EmployeeManagementSystem.Entities
 {
     public class Developer : Employee
     {
@@ -15,6 +9,12 @@ namespace EmployeeManagementSystem.Entities
             :base(id, name, basicPayment, daPayment, hraPayment)
         {
             this.IncentivePayment = incentivePayment;
+        }
+
+        public override void CalculateSalary()
+        {
+            base.CalculateSalary();
+            this.TotalSalary += this.IncentivePayment;
         }
     }
 }

@@ -1,0 +1,197 @@
+﻿using System;
+
+namespace EmployeeManagementSystem.Entities
+{
+    public class Employee
+    {
+        #region Data Members
+        //private int id;
+        //private string name;
+        //private decimal basicPayment;
+        //private decimal daPayment;
+        //private decimal hraPayment;
+        //private decimal totalSalary;
+        #endregion
+
+        #region Constructors
+        public Employee() { }
+
+        public Employee(int id, string name, decimal basicPayment, decimal daPayment, decimal hraPayment)
+        {
+            //this.id = id;
+            //this.name = name;
+            //this.basicPayment = basicPayment;
+            //this.daPayment = daPayment;
+            //this.hraPayment = hraPayment;
+
+            this.Id = id;
+            this.Name = name;
+            this.BasicPayment = basicPayment;
+            this.DaPayment = daPayment;
+            this.HraPayment = hraPayment;
+        }
+
+        #endregion
+
+        #region Properties
+        public decimal TotalSalary
+        {
+            get;// { return totalSalary; }
+            private set;// { totalSalary = value; }
+        }
+
+        public decimal HraPayment
+        {
+            get;// { return hraPayment; }
+            set;// { hraPayment = value; }
+        }
+
+        public decimal DaPayment
+        {
+            get;// { return daPayment; }
+            set;// { daPayment = value; }
+        }
+
+        public decimal BasicPayment
+        {
+            get;// { return basicPayment; }
+            set;// { basicPayment = value; }
+        }
+
+        public string Name
+        {
+            get; //{ return name; }
+            set;// { name = value; }
+        }
+
+        public int Id
+        {
+            get;// { return id; }
+            set;// { id = value; }
+        }
+        #endregion 
+
+        #region Methods
+        public void CalculateSalary()
+        {
+            // this.totalSalary = this.basicPayment + this.daPayment + this.hraPayment;
+            this.TotalSalary = this.BasicPayment + this.DaPayment + this.HraPayment;
+        }
+        #endregion
+    }
+}
+
+using System;
+using EmployeeManagementSystem.Entities;
+
+namespace EmployeeManagementSystem.UserInterface
+{
+    class Program
+    {
+        static int GetCount()
+        {
+            Console.Write("How many records? ");
+            return int.Parse(Console.ReadLine());
+        }
+        static void PrintOpions()
+        {
+            Console.WriteLine("\n1. Create Developer");
+            Console.WriteLine("2. Create Hr");
+        }
+        static int GetChoice()
+        {
+            Console.Write("Enter Choice[1/2]: ");
+            return int.Parse(Console.ReadLine());
+        }
+        static Employee CreateEmployee(int choice)
+        {
+            Employee employee = null;
+            
+            Console.Write("\nName: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Id: ");
+            int id = int.Parse(Console.ReadLine());
+
+            Console.Write("Basic: ");
+            decimal basic = decimal.Parse(Console.ReadLine());
+
+            Console.Write("Da: ");
+            decimal da = decimal.Parse(Console.ReadLine());
+
+            Console.Write("Hra: ");
+            decimal hra = decimal.Parse(Console.ReadLine());
+
+            switch (choice)
+            {
+                case 1:
+
+                    Console.Write("Incentive: ");
+                    decimal incentive = decimal.Parse(Console.ReadLine());
+                    
+                    employee = new Developer(id,name,basic,da,hra,incentive);
+                    break;
+
+                case 2:
+
+                    Console.Write("Gratuity: ");
+                    decimal gratuity = decimal.Parse(Console.ReadLine());
+                    
+                    employee = new Hr(id, name, basic, da, hra, gratuity);
+                    break;
+
+                default:
+                    Console.WriteLine("\nEnter proper choice...");
+                    break;
+            }
+            return employee;
+        }
+        static void PrintSalary(Employee[] employees)
+        {
+            for (int i = 0; i < employees.Length; i++)
+            {
+                Employee e = employees[i];
+                e.CalculateSalary();
+                Console.WriteLine(e.TotalSalary);
+
+                //if(e is Developer)
+                //{
+                //    Developer d = e as Developer;
+                //    d.CalculateSalary();
+                //    Console.WriteLine(d.TotalSalary);
+                //}
+                //if(e is Hr)
+                //{
+                //    Hr h = (Hr)e;
+                //    h.CalculateSalary();
+                //    Console.WriteLine(h.TotalSalary);
+                //}
+            }
+        }
+        static void Main()
+        {
+            int count = GetCount();
+            Employee[] employees = new Employee[count];
+
+            for (int i = 0; i < count; i++)
+            {
+                PrintOpions();
+                int choice = GetChoice();
+                Employee employee = CreateEmployee(choice);
+                employees[i] = employee;
+            }
+            PrintSalary(employees);
+
+            //Developer joydipDeveloperObjRef = new Developer(1, "joydip", 1000, 2000, 3000, 4000);
+            //Hr anilHrObjRef = new Hr(2, "anil", 2000, 3000, 4000, 5000);
+
+            //employees[0] = joydipDeveloperObjRef;
+            //employees[1] = anilHrObjRef;
+
+           
+            //Developer[] developers = new Developer[2];
+            //Hr[] hrs = new Hr[2];
+        }
+    }
+}
+

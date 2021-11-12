@@ -1,16 +1,24 @@
-﻿using System;
-using EmployeeManagementSystem.Entities;
+﻿using EmployeeManagementSystem.Entities;
+//static import (importing a static type)
+using static EmployeeManagementSystem.UserInterface.UserInterfaceUtility;
 
 namespace EmployeeManagementSystem.UserInterface
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            //Employee joydipEmployeeObjRef = new Employee(1, "joydip", 1000, 2000, 3000);
-            Developer joydipEmployeeObjRef = new Developer(1, "joydip", 1000, 2000, 3000, 4000);         
-            joydipEmployeeObjRef.CalculateSalary();
-            Console.WriteLine(joydipEmployeeObjRef.TotalSalary);
+            int count = GetCount();
+            Employee[] employees = new Employee[count];
+
+            for (int i = 0; i < count; i++)
+            {
+                PrintOpions();
+                int choice = GetChoice();
+                Employee employee = CreateEmployee(choice);
+                employees[i] = employee;
+            }
+            PrintSalary(employees);
         }
     }
 }
