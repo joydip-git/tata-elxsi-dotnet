@@ -1,0 +1,15 @@
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\bin\Debug\net5.0\DynamicPoylmorphismDemo.exe
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\bin\Debug\net5.0\DynamicPoylmorphismDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\bin\Debug\net5.0\DynamicPoylmorphismDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\bin\Debug\net5.0\DynamicPoylmorphismDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\bin\Debug\net5.0\DynamicPoylmorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\bin\Debug\net5.0\ref\DynamicPoylmorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\bin\Debug\net5.0\DynamicPoylmorphismDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\DynamicPoylmorphismDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\DynamicPoylmorphismDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\DynamicPoylmorphismDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\DynamicPoylmorphismDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\DynamicPoylmorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\ref\DynamicPoylmorphismDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\DynamicPoylmorphismDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-3\DynamicPoylmorphismDemo\DynamicPoylmorphismDemo\obj\Debug\net5.0\DynamicPoylmorphismDemo.genruntimeconfig.cache

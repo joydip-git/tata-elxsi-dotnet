@@ -6079,11 +6079,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.EntitiesTestApp\\EmployeeManagementSystem.EntitiesTestApp.csproj",
+      "projectUniqueName": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.EntitiesTestApp\\EmployeeManagementSystem.EntitiesTestApp.csproj",
       "projectName": "EmployeeManagementSystem.EntitiesTestApp",
-      "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.EntitiesTestApp\\EmployeeManagementSystem.EntitiesTestApp.csproj",
+      "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.EntitiesTestApp\\EmployeeManagementSystem.EntitiesTestApp.csproj",
       "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
-      "outputPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.EntitiesTestApp\\obj\\",
+      "outputPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.EntitiesTestApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -6105,8 +6105,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj": {
-              "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj"
+            "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj": {
+              "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj"
             }
           }
         }

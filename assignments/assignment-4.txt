@@ -1,0 +1,26 @@
+A. library
+Base Type
+	- common attributes
+	- common functionalities
+
+Student  : 
+	 - name, marksObtained
+	 - a method to decide whether a student is outstanding or not (common)
+	   (RT-->bool, args: none)
+	 - a method to return complete data of a student (RT-->string, args: none)[print]
+
+Professor: 
+	- name, books published
+	- a method to decide whether a professor is outstanding or not (common)
+	   (RT-->bool, args: none)
+	- a method to return complete data of a student (RT-->string, args: none)[show]
+
+whether a student or a professor is outstanding:
+marks>=85
+books>=5
+
+B. console
+1. create an array to store student/professor objects [4]
+2. ask user to enter values for each object
+3. store every object in the array
+4. iterate through the array and pick up one object at a time and display the details of that object if that object is outstanding

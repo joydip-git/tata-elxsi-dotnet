@@ -1,0 +1,12 @@
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\bin\Debug\net5.0\PersonManagementSystem.Entities.deps.json
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\bin\Debug\net5.0\PersonManagementSystem.Entities.dll
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\bin\Debug\net5.0\ref\PersonManagementSystem.Entities.dll
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\bin\Debug\net5.0\PersonManagementSystem.Entities.pdb
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\PersonManagementSystem.Entities.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\PersonManagementSystem.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\PersonManagementSystem.Entities.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\PersonManagementSystem.Entities.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\PersonManagementSystem.Entities.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\PersonManagementSystem.Entities.dll
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\ref\PersonManagementSystem.Entities.dll
+E:\tata-elxsi-dotnet\codes\day-3\PersonManagementSystem\PersonManagementSystem.Entities\obj\Debug\net5.0\PersonManagementSystem.Entities.pdb

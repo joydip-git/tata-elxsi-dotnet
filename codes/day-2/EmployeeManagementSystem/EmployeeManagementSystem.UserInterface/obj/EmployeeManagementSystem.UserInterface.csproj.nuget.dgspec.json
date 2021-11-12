@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj": {}
+    "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj": {}
   },
   "projects": {
-    "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj": {
+    "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj",
+        "projectUniqueName": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj",
         "projectName": "EmployeeManagementSystem.Entities",
-        "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj",
+        "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj",
         "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
-        "outputPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\obj\\",
+        "outputPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -63,14 +63,14 @@
         }
       }
     },
-    "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj": {
+    "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj",
+        "projectUniqueName": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj",
         "projectName": "EmployeeManagementSystem.UserInterface",
-        "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj",
+        "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\EmployeeManagementSystem.UserInterface.csproj",
         "packagesPath": "C:\\Users\\joydip\\.nuget\\packages\\",
-        "outputPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\obj\\",
+        "outputPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.UserInterface\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -92,8 +92,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj": {
-                "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj"
+              "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj": {
+                "projectPath": "e:\\tata-elxsi-dotnet\\codes\\day-2\\EmployeeManagementSystem\\EmployeeManagementSystem.Entities\\EmployeeManagementSystem.Entities.csproj"
               }
             }
           }

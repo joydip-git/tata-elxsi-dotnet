@@ -87,6 +87,20 @@ class A
 	public static UseX(){//access x}
 }
 
+base method:	child method:	is mandatory to override the base method? 	Otherwise???
+virtual		override	NO (optional)					Nothing
+abstract	override	YES						child becomes abstract
+
+abstract class:
+	- a class with at least one abstract member (method or property)
+	- the member as well as the class, both must be declared with abstract keyword
+	- you can't create instance of an abstract class
+	- an abstract class is used like a "prototype/template"
+	- any class inheriting from abstract class, MUST implement all the abstract members of the abstract base class (otherwise you have to declare that child class as an abstract class too)
+	- this mechanism helps one to enforce any class to have the methods/properties that you think must be there
+
+
+
 
 
 
