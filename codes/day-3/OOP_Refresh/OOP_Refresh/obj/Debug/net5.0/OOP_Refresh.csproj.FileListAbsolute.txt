@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\bin\Debug\net5.0\OOP_Refresh.exe
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\bin\Debug\net5.0\OOP_Refresh.deps.json
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\bin\Debug\net5.0\OOP_Refresh.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\bin\Debug\net5.0\OOP_Refresh.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\bin\Debug\net5.0\OOP_Refresh.dll
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\bin\Debug\net5.0\ref\OOP_Refresh.dll
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\bin\Debug\net5.0\OOP_Refresh.pdb
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.dll
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\ref\OOP_Refresh.dll
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.pdb
+E:\tata-elxsi-dotnet\codes\day-3\OOP_Refresh\OOP_Refresh\obj\Debug\net5.0\OOP_Refresh.genruntimeconfig.cache

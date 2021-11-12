@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\bin\Debug\net5.0\StaticDemo.exe
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\bin\Debug\net5.0\StaticDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\bin\Debug\net5.0\StaticDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\bin\Debug\net5.0\StaticDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\bin\Debug\net5.0\StaticDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\bin\Debug\net5.0\ref\StaticDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\bin\Debug\net5.0\StaticDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\ref\StaticDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-3\StaticDemo\StaticDemo\obj\Debug\net5.0\StaticDemo.genruntimeconfig.cache

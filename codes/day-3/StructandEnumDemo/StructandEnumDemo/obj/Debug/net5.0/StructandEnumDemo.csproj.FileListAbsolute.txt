@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\bin\Debug\net5.0\StructandEnumDemo.exe
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\bin\Debug\net5.0\StructandEnumDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\bin\Debug\net5.0\StructandEnumDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\bin\Debug\net5.0\StructandEnumDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\bin\Debug\net5.0\StructandEnumDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\bin\Debug\net5.0\ref\StructandEnumDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\bin\Debug\net5.0\StructandEnumDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\ref\StructandEnumDemo.dll
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-3\StructandEnumDemo\StructandEnumDemo\obj\Debug\net5.0\StructandEnumDemo.genruntimeconfig.cache
