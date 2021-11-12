@@ -74,8 +74,10 @@ e. static class:
 	- class declared with static keyword
 	- no instance of the class is created (since there will be no public constructor)
 	- contains only static members (static data/method/constructor/property)
+	- can't be inherited, since derived class's ctor always calls parent class's public (default/parameterized) ctor, but the static class can't have any public instance ctor
 	- used as utility class, when you frequently use members of the class and do not want to create object of the class everytime you access it's members
 	- ex: Console, Convert class
+	
 
 class A
 {

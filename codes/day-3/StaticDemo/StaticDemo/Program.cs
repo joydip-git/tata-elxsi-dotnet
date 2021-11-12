@@ -6,6 +6,7 @@ namespace StaticDemo
     {
         static void Main()
         {
+            Developer d = new Developer();
             Console.WriteLine(Employee.JoiningBonus);
             //Employee anilEmployee = new Employee(1, "anil", 1000, 2000, 3000);
             //anilEmployee.CalculateSalary();
@@ -20,7 +21,6 @@ namespace StaticDemo
             //data access code
             DaoUtility.CloseConnection();
             //DaoUtility dao = new DaoUtility();
-            
         }
     }
 }

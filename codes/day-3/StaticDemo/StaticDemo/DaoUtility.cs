@@ -26,4 +26,9 @@ namespace StaticDemo
 
         }
     }
+
+    //class X : DaoUtility
+    //{
+    //    public X() { }
+    //}
 }

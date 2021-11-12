@@ -41,4 +41,9 @@
             TotalSalary = Basic + Da + Hra + JoiningBonus;
         }
     }
+
+    class Developer : Employee
+    {
+        public Developer() { }
+    }
 }
