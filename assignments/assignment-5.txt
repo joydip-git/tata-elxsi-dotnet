@@ -1,0 +1,19 @@
+purpose: calculate area of different shapes
+
+library:
+base type:
+	
+circle: 	
+	- radius, 
+	- method to calculate the area and retrun the area (RT--> number, arg:none)
+
+triangle
+	- base, height
+	- method to calculate the area and retrun the area (RT--> number, arg:none)
+
+square
+rectangle
+
+console:
+1. create some shape objects and store them in an array
+2. iterate through the array, caluclate area of each shape and print the same
