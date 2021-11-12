@@ -10,13 +10,13 @@ namespace DynamicPoylmorphismDemo
             Console.WriteLine("2. get data from mongo");
             Console.Write("Choice: ");
             int choice = int.Parse(Console.ReadLine());            
-            Dao dao = Create(choice);
+            IDao dao = Create(choice);
             dao.GetData();
         }
 
-        private static Dao Create(int choice)
+        private static IDao Create(int choice)
         {
-            Dao dao = null;
+            IDao dao = null;
             switch (choice)
             {
                 case 1:

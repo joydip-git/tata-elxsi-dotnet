@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace DynamicPoylmorphismDemo
 {
-    abstract class Dao
+    //abstract class Dao
+    //{
+    //    public abstract string GetData();
+    //}
+    interface IDao
     {
-        public abstract string GetData();
+        string GetData();
     }
 }

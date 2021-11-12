@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "ShapeApplication.UserInterface/1.0.0": {
+        "dependencies": {
+          "ShapeApplication.Entities": "1.0.0"
+        },
+        "runtime": {
+          "ShapeApplication.UserInterface.dll": {}
+        }
+      },
+      "ShapeApplication.Entities/1.0.0": {
+        "runtime": {
+          "ShapeApplication.Entities.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShapeApplication.UserInterface/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ShapeApplication.Entities/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -2,7 +2,8 @@ purpose: calculate area of different shapes
 
 library:
 base type:
-	
+	- common functionality (double calculatearea();})
+
 circle: 	
 	- radius, 
 	- method to calculate the area and retrun the area (RT--> number, arg:none)
@@ -11,9 +12,40 @@ triangle
 	- base, height
 	- method to calculate the area and retrun the area (RT--> number, arg:none)
 
-square
+square - side
 rectangle
 
 console:
 1. create some shape objects and store them in an array
 2. iterate through the array, caluclate area of each shape and print the same
+
+interface:
+	 - pure abstract class
+	 - all members are abstract over in the interface by default (do not use abstract keyword)
+	 - by default all members are public (do not use any acces specifier)	 
+	 - an interface can be inherited in another interface
+	 - implement the interface in a class
+	 - you can not create object of interface
+
+use interface when only methods/properties are common amongst the childs
+you can have only abstract members
+interface IShape
+{
+	double CalculateArea();
+	double Area {set; get;}
+}
+
+use abstract class when not only methods/properties are common amongst the childs, but also data
+you can have abstract + non-abstract members in abstract class
+abstract class Shape
+{
+	public Shape(){}
+	private int x;
+	public abstract double CalculateArea();
+	public abstract double Area {set; get;}
+	public void Foo(){}
+}
+
+
+
+

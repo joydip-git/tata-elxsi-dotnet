@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace DynamicPoylmorphismDemo
 {
-    class SqlDao : Dao
+    class SqlDao : IDao
     {
-        public override string GetData()
+        public string GetData()
         {
             return "";
         }
