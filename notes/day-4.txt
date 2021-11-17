@@ -1,0 +1,46 @@
+generics:
+	a. method
+	b. class
+	c. interface
+	d. delegate
+
+generics with constriants:
+void Add A<T>(T a, T b)
+	i. where T:struct (T is Value type)
+	ii. where T:class (T is reference type)
+	iii. where T:new() ( T is reference rype with default ctor)
+	iv. where T: <class-name> (T is of particularly of type <class-name>)
+
+void Add<T1,T2>(T1 a, T2 b) where T2:T1
+TResult Add<TInput, TResult>(TInput a) where TInput:TResult
+	
+generic collection classes
+	a. List
+
+indexer:
+	a. it is a complex property inside the class
+	b. can access data of a class object using an indexer value
+	c. it does not have any name, since it works on the current instance
+	//non-generic
+	public Object this[int x]
+	{
+		//set
+		//get
+	}
+	//generic
+	public T this[int x]
+	{
+		// set
+		// get
+	}
+	Note: the data type of the parameter of an indexer, could be anything, but preferrably string or int.
+
+enumeration
+	
+Object class
+exception handling
+
+yield
+IEnumerator
+
+

@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\bin\Debug\net5.0\GenericDemo.exe
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\bin\Debug\net5.0\GenericDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\bin\Debug\net5.0\GenericDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\bin\Debug\net5.0\GenericDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\bin\Debug\net5.0\GenericDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\bin\Debug\net5.0\ref\GenericDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\bin\Debug\net5.0\GenericDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\ref\GenericDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-4\GenericDemo\GenericDemo\obj\Debug\net5.0\GenericDemo.genruntimeconfig.cache
