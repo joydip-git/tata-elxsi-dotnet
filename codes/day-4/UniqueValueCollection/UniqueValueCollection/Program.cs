@@ -63,8 +63,10 @@ namespace UniqueValueCollection
     {
         static void Main()
         {
-            Student anilStudent = new Student { Id = 1, Name = "anil" };
-            Student sunilStudent = new Student { Id = 2, Name = "sunil" };
+            //Student anilStudent = new Student { Id = 1, Name = "anil" };
+            //Student sunilStudent = new Student { Id = 2, Name = "sunil" };
+            Student anilStudent = new Student();
+            Student sunilStudent = new Student();
             //Student sunilStudent = anilStudent;
 
             //Console.WriteLine(anilStudent.ToString());
@@ -123,7 +125,10 @@ namespace UniqueValueCollection
             {
                 Console.WriteLine(item);
             }
-
+            //for (int i = 0; i < 5; i++)
+            //{
+            //    yield return i;
+            //}
         }
     }
 }

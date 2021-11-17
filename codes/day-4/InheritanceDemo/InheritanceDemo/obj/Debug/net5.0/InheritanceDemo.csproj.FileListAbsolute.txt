@@ -1,0 +1,15 @@
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\net5.0\InheritanceDemo.exe
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\net5.0\InheritanceDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\net5.0\InheritanceDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\net5.0\InheritanceDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\net5.0\InheritanceDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\net5.0\ref\InheritanceDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\bin\Debug\net5.0\InheritanceDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\InheritanceDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\InheritanceDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\InheritanceDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\InheritanceDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\InheritanceDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\ref\InheritanceDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\InheritanceDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-4\InheritanceDemo\InheritanceDemo\obj\Debug\net5.0\InheritanceDemo.genruntimeconfig.cache

@@ -11,7 +11,7 @@ namespace GenericDemo
         int Count { get; }
         int Capacity { get; }
     }
-    class MyCollection<T> : IMyCollection<T>, IEnumerable<T>
+    class MyCollection<T> : IMyCollection<T>//, IEnumerable<T>
     {
         private T[] arr;
         private int index;
