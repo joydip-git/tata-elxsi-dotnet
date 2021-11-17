@@ -79,15 +79,21 @@ namespace GenericDemo
             numbers.Add(23);
             numbers.Add(34);
 
-            for (int i = 0; i < numbers.Count; i++)
-            {
-                Console.WriteLine($"Numbers[{i}]={numbers[i]}");
-            }
+            //for (int i = 0; i < numbers.Count; i++)
+            //{
+            //    Console.WriteLine($"Numbers[{i}]={numbers[i]}");
+            //}
 
             //during enumeration the collection object is locked, means you can not add new values into or remove old values from the collevtion
-            foreach (int item in numbers)
+            //foreach (int item in numbers)
+            //{
+            //    Console.WriteLine(item);
+            //}
+
+            IEnumerator<int> all = numbers.GetEnumerator();
+            while (all.MoveNext())
             {
-                Console.WriteLine(item);
+                Console.WriteLine(all.Current);
             }
 
             //Console.WriteLine(numbers.Count);

@@ -35,12 +35,19 @@ indexer:
 	}
 	Note: the data type of the parameter of an indexer, could be anything, but preferrably string or int.
 
-enumeration
+enumeration:
+	implement IEnumerable/IEnumerable<T> interface, which provides you with GetEnumerator method
+	- IEnumerator GetEnumerator() [IEnumerable]
+	- IEnumerator<T> GetEnumerator() [IEnumerable<T>]
+	- during enumeration do not modify the collection, you can update the values already present, but can't add new or remove existing elements from the collection
+	- IEnumerator interface represents an enumerator object, used to iterate through the collection (one at a time)
+	- yield keyword helps you to produce/create the enumerator, which at a time contains one value from the collection, and also helps ypu continue the for loop written inside the GetEnumerator method without completely coming out of it, but side by ie returning the value also
+	
 	
 Object class
 exception handling
 
-yield
-IEnumerator
+
+
 
 

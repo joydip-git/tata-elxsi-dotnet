@@ -55,6 +55,7 @@ namespace GenericDemo
 
         public IEnumerator<T> GetEnumerator()
         {
+            //var obj = new Enumerator(arr[i]);
             for (int i = 0; i < this.Count; i++)
             {
                yield return arr[i];

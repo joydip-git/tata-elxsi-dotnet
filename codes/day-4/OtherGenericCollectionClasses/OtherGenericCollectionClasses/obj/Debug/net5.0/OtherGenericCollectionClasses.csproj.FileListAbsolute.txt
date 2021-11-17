@@ -1,0 +1,15 @@
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\bin\Debug\net5.0\OtherGenericCollectionClasses.exe
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\bin\Debug\net5.0\OtherGenericCollectionClasses.deps.json
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\bin\Debug\net5.0\OtherGenericCollectionClasses.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\bin\Debug\net5.0\OtherGenericCollectionClasses.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\bin\Debug\net5.0\OtherGenericCollectionClasses.dll
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\bin\Debug\net5.0\ref\OtherGenericCollectionClasses.dll
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\bin\Debug\net5.0\OtherGenericCollectionClasses.pdb
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\OtherGenericCollectionClasses.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\OtherGenericCollectionClasses.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\OtherGenericCollectionClasses.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\OtherGenericCollectionClasses.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\OtherGenericCollectionClasses.dll
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\ref\OtherGenericCollectionClasses.dll
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\OtherGenericCollectionClasses.pdb
+E:\tata-elxsi-dotnet\codes\day-4\OtherGenericCollectionClasses\OtherGenericCollectionClasses\obj\Debug\net5.0\OtherGenericCollectionClasses.genruntimeconfig.cache
