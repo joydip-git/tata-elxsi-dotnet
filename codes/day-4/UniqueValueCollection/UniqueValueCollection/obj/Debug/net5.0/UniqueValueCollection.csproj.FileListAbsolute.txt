@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\bin\Debug\net5.0\UniqueValueCollection.exe
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\bin\Debug\net5.0\UniqueValueCollection.deps.json
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\bin\Debug\net5.0\UniqueValueCollection.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\bin\Debug\net5.0\UniqueValueCollection.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\bin\Debug\net5.0\UniqueValueCollection.dll
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\bin\Debug\net5.0\ref\UniqueValueCollection.dll
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\bin\Debug\net5.0\UniqueValueCollection.pdb
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.dll
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\ref\UniqueValueCollection.dll
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.pdb
+E:\tata-elxsi-dotnet\codes\day-4\UniqueValueCollection\UniqueValueCollection\obj\Debug\net5.0\UniqueValueCollection.genruntimeconfig.cache

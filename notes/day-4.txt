@@ -56,7 +56,14 @@ Sorting of List<T>:
 	- Sort method will call Compare(T x, T y)/ Compare(object x, object y) method of the instance of TComparison class
 
 Dictionary, SortedList, HashSet etc.
-Object class
+
+Object class:
+	a. virtual int GetHashCode()
+	b. virtual bool Equals(object obj)
+	c. virtual string ToString()
+
+HashSet<T> uses both GetHashCode and Equals (optional- in case two objects/values return the same hash code, then only this method is used find out the equality)
+
 exception handling
 
 
