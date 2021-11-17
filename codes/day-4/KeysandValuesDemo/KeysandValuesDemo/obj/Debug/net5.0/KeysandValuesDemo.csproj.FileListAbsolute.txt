@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\bin\Debug\net5.0\KeysandValuesDemo.exe
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\bin\Debug\net5.0\KeysandValuesDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\bin\Debug\net5.0\KeysandValuesDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\bin\Debug\net5.0\KeysandValuesDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\bin\Debug\net5.0\KeysandValuesDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\bin\Debug\net5.0\ref\KeysandValuesDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\bin\Debug\net5.0\KeysandValuesDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\ref\KeysandValuesDemo.dll
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-4\KeysandValuesDemo\KeysandValuesDemo\obj\Debug\net5.0\KeysandValuesDemo.genruntimeconfig.cache

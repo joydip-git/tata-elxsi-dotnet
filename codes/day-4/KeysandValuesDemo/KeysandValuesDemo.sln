@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31829.152
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeysandValuesDemo", "KeysandValuesDemo\KeysandValuesDemo.csproj", "{01754DEA-B34F-4C5A-AFD8-04D35DFED81E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{01754DEA-B34F-4C5A-AFD8-04D35DFED81E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01754DEA-B34F-4C5A-AFD8-04D35DFED81E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01754DEA-B34F-4C5A-AFD8-04D35DFED81E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01754DEA-B34F-4C5A-AFD8-04D35DFED81E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8270AFF4-E0D5-41DB-A322-B84B0970964A}
+	EndGlobalSection
+EndGlobal
