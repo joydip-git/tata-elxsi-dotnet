@@ -44,8 +44,23 @@ enumeration:
 	- yield keyword helps you to produce/create the enumerator, which at a time contains one value from the collection, and also helps ypu continue the for loop written inside the GetEnumerator method without completely coming out of it, but side by ie returning the value also
 	
 	
+Sorting of List<T>:
+	
+	a. internalization: for internal sorting without any choice
+	- T class must implement IComparable [int CompreTo(object other)]/IComparable<T> [int CompareTo(T other)] (from System namespace)
+	- when you call Sort() method of List<T>, the CompareTo method of T class object will be called
+	
+	b. externalization: for extrnal sorting based on criteria (choice)
+	- A separate class TComaprsion should be created, implementing IComparer (from System.Collections) [int Compre(object x, object y)] /IComparer<T> (from System.Collections.Generic) [int Compare(T x, T y)] interface
+	- create an instance of TComaprsion clas and pass it to Sort() method of List<T> class 
+	- Sort method will call Compare(T x, T y)/ Compare(object x, object y) method of the instance of TComparison class
+
+Dictionary, SortedList, HashSet etc.
 Object class
 exception handling
+
+
+	
 
 
 

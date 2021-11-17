@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 namespace OtherGenericCollectionClasses
 {
+    //IComparable<T> --> System
     class Student : IComparable<Student>
     {
         //automatic property (2007-3.0)
@@ -18,6 +19,42 @@ namespace OtherGenericCollectionClasses
                 return this.Name.CompareTo(other.Name);
             else
                 return this.Id.CompareTo(other.Id);
+        }
+    }
+    //IComparer<T> --> System.Collections.Generic
+    class StudentComparison : IComparer<Student>
+    {
+        private int _choice;
+        public StudentComparison() { }
+        public StudentComparison(int choice)
+        {
+            this._choice = choice;
+        }
+        public int Compare(Student x, Student y)
+        {           
+            if (x == y)
+            {
+                return 0;
+            }
+            else
+            {
+                int result = 0;
+                switch (this._choice)
+                {
+                    case 1:
+                        result = x.Id.CompareTo(y.Id);
+                        break;
+
+                    case 2:
+                        result = x.Name.CompareTo(y.Name);
+                        break;
+
+                    default:
+                        result = x.Id.CompareTo(y.Id);
+                        break;
+                }
+                return result;
+            }
         }
     }
     class Program
@@ -90,12 +127,28 @@ namespace OtherGenericCollectionClasses
                 }
             }
             */
-            students.Sort();
+            //internalization of sorting
+            //it expects that you have implemented IComparable<T>/IComparable interface in the Student class [int CompareTo(T other)/int CompreTo(object other)], in order to compare the objects with each other
+            //students[i].CompareTo(stuents[j])
+            //students.Sort();
+
+            Console.WriteLine("1. sort by id");
+            Console.WriteLine("2. sort by name");
+
+            Console.Write("enter choice[1/2]: ");
+            int choice = int.Parse(Console.ReadLine());
+
+            //externalization of sorting
+            StudentComparison studentComparison = new StudentComparison(choice);
+            //it expects that you have implemented IComparer<T>/IComparer interface in the StudentComparison class [int Compare(T x, T y)/int Compre(object x, object y)], in order to compare the objects with each other
+            students.Sort(studentComparison);
+            //studentComparison.Compare(students[i],students[j]);
+
             foreach (Student item in students)
             {
                 Console.WriteLine($"{item.Id}, {item.Name}");
             }
-           
+
         }
     }
 }
