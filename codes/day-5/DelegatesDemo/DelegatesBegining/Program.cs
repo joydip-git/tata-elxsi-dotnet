@@ -35,7 +35,24 @@ namespace DelegatesBegining
             };
 
             FilterLogic logic = new FilterLogic();
-            FilterLogicHandler<Student> logicHandler = new FilterLogicHandler<Student>(logic.IsMarksGreaterThanSeventy);
+            //FilterLogicHandler<Student> logicHandler = new FilterLogicHandler<Student>(logic.IsMarksGreaterThanSeventy);
+
+            //FilterLogicHandler<Student> logicHandler = new FilterLogicHandler<Student>(
+            //    delegate (Student s)
+            //{
+            //    return s.Marks > 70;
+            //}
+            //);
+            //int thresholdMarks = 70;
+            //FilterLogicHandler<Student> logicHandler = delegate (Student s)
+            //   {
+            //       //thresholdMarks--> outer variable in anonymous method
+            //       return s.Marks > thresholdMarks;
+            //   };
+
+            //Lambda expression (shorthand notation of anonymous method)
+            FilterLogicHandler<Student> logicHandler = (s) => s.Marks > 70;
+
             List<Student> result = Filter(students, logicHandler);
             foreach (Student item in result)
             {
@@ -50,7 +67,15 @@ namespace DelegatesBegining
 
             FilterLogic filterLogic = new FilterLogic();
             //delegate object holding reference to a logic function
-            FilterLogicHandler<int> evenLogic = new FilterLogicHandler<int>(filterLogic.IsGreaterThanFive);
+            //FilterLogicHandler<int> evenLogic = new FilterLogicHandler<int>(filterLogic.IsGreaterThanFive);
+
+            FilterLogicHandler<int> evenLogic = delegate (int num) { return num % 2 == 0; };
+
+            //Lambda expression (2007-3.0)
+            FilterLogicHandler<int> oddLogic = (int num) => { return num % 2 == 0; };
+            FilterLogicHandler<int> greaterThanFiveLogic = (num) => num % 2 == 0;
+            //FilterLogicHandler<int> greaterThanFiveLogic
+            //= new FilterLogicHandler<int>((num) => num % 2 == 0);
 
             List<int> resultList = Filter(numbers, evenLogic);
             foreach (int item in resultList)

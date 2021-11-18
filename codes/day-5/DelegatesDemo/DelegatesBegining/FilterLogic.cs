@@ -15,9 +15,9 @@
             return number > 5;
         }
 
-        public bool IsMarksGreaterThanSeventy(Student s)
-        {
-            return s.Marks > 70;
-        }
+        //public bool IsMarksGreaterThanSeventy(Student s)
+        //{
+        //    return s.Marks > 70;
+        //}
     }
 }
