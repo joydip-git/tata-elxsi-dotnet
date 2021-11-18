@@ -1,0 +1,16 @@
+1. create a delegate that can call calculation methods (add, subtract,...)
+   - all methods return 'int' and takes two arguments of type 'int'
+   - use the delegate to invoke those methods based on choice from user
+
+2. create a generic delegate which can used to sort any collection of any type
+
+ example of collections:
+   - List<int> numbers = new List<int>{ 1,3,5,2,4,6};
+   - List<Student> students = new List<Student>{ new Student {Id=2, Name="sunil", Marks=45 }};
+
+  - use that generic delegate to invoke some anonymous methods for sorting based on some criteria
+  - for this create a separate method before Main() method (like Filter method)
+
+	- sort the list of numbers
+	- sort the list of students based on Marks or Name or Id
+    
