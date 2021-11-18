@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\bin\Debug\net5.0\DelegatesBegining.exe
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\bin\Debug\net5.0\DelegatesBegining.deps.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\bin\Debug\net5.0\DelegatesBegining.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\bin\Debug\net5.0\DelegatesBegining.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\bin\Debug\net5.0\DelegatesBegining.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\bin\Debug\net5.0\ref\DelegatesBegining.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\bin\Debug\net5.0\DelegatesBegining.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\ref\DelegatesBegining.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesBegining\obj\Debug\net5.0\DelegatesBegining.genruntimeconfig.cache

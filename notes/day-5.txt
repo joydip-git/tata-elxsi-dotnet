@@ -1,0 +1,37 @@
+1. delegate
+	a. what is delegate
+	- reference to a method (like reference to an object) or methods
+	- is used to call/invoke method(s)
+	
+	b. how to use delegate
+	- syntactically a delegate looks like a method prototype declaration	
+	- behind the scene delegate is a class. An object of a delegate is used to store address(s) of method(s).
+	- declare a delegate which looks like the method(s) that you want to call using that delegate. signature of delegate and the method(s) should be identical. If the signature of method(s) and delegate do not match, that means using that delegate you can't invoke that method(s)
+	- create an instance of a delegate then, by passing the name of the function in the constructor of the delegate 
+	- call the delegate and pass the parameters to the delegate, which is going to invoke the method(s) and those parameters will be supllied to the method(s) by the delegate
+
+	c. where delegates are used
+	- used in a famous mechanism: callback
+	- in real-time delegates are used in Threading, event handling, asynchronous method invocation, LINQ etc.
+
+	d. types of delegates
+	a. how many method references are stored in the delegate
+	- if the delegate object is referring a method, it is a single-cast delegate
+	- if the delegate object is referring series of methods, it is a multi-cast delegate
+
+	b. the way methods are invoked by the delegate
+	- synchronous delegate
+	- asynchronous delegate (has to be a single-cast delegate)
+
+	e. anonymous method and delegate
+
+2. New features
+	a. Lambda expression
+	b. anonymous type
+
+3. LINQ
+	a. what is LINQ?
+	b. pre-requesites
+	c. syntax
+	d. different operators
+

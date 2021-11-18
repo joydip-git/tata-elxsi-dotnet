@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegatesIntro.exe
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegatesIntro.deps.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegatesIntro.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegatesIntro.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegatesIntro.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\ref\DelegatesIntro.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegatesIntro.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\ref\DelegatesIntro.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.genruntimeconfig.cache
