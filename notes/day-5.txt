@@ -34,7 +34,13 @@
 
 3. LINQ
 	a. what is LINQ?
-	b. pre-requesites
-	c. syntax
+	b. pre-requesites: generic, generic collection classes, delegate, new features of C#
+	c. syntax: Method query and Query Operator
 	d. different operators
+
+
+collection-object.Method(delegate-referring-to-method-containing-logic)
+
+from variable from source-of-data
+clause <criteria> (delegate-referring-to-method-containing-logic)
 

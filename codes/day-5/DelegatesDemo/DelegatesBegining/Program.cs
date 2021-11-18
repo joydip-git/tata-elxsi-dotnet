@@ -1,6 +1,7 @@
 ﻿using DelegateLibrary;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace DelegatesBegining
 {
@@ -22,7 +23,38 @@ namespace DelegatesBegining
         static void Main()
         {
             //FilterListOfNumbers();
-            FilterStudents();
+            //FilterStudents();
+            FilterNumbersUsingBuiltinDelegate();
+        }
+
+        private static void FilterNumbersUsingBuiltinDelegate()
+        {
+            List<int> numbers = new List<int> { 1, 4, 3, 6, 8, 7, 2, 9, 0, 5 };
+            //Predicate<int> filterByEven = (a) => a % 2 == 0;
+
+            //LINQ:
+            //a. Method query syntax
+            //
+            /*
+            Func<int, bool> filterByOdd = a => a % 2 != 0;
+            IEnumerable<int> result = numbers.Where(filterByOdd);
+
+            Func<int, int> sortLogic = (a) => a;
+            IOrderedEnumerable<int> finalResult = result.OrderBy(sortLogic);
+            */
+
+            //b. query operator syntax
+            IOrderedEnumerable<int> finalResult = from a in numbers
+                                                  where a % 2 != 0
+                                                  orderby a ascending
+                                                  select a;
+            foreach (int item in finalResult)
+            {
+                Console.WriteLine(item);
+            }
+
+            Action<int, int> addDel = (a, b) => Console.WriteLine(a + b);
+            Func<int, int, int> subDel = (a, b) => a + b;
         }
 
         private static void FilterStudents()

@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\bin\Debug\net5.0\SortingWithDelegate.exe
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\bin\Debug\net5.0\SortingWithDelegate.deps.json
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\bin\Debug\net5.0\SortingWithDelegate.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\bin\Debug\net5.0\SortingWithDelegate.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\bin\Debug\net5.0\SortingWithDelegate.dll
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\bin\Debug\net5.0\ref\SortingWithDelegate.dll
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\bin\Debug\net5.0\SortingWithDelegate.pdb
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.dll
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\ref\SortingWithDelegate.dll
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.pdb
+E:\tata-elxsi-dotnet\codes\day-5\SortingWithDelegate\SortingWithDelegate\obj\Debug\net5.0\SortingWithDelegate.genruntimeconfig.cache
