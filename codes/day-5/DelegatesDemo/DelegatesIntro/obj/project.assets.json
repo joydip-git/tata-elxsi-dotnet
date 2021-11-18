@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "DelegateLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/DelegateLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DelegateLibrary.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "DelegateLibrary/1.0.0": {
+      "type": "project",
+      "path": "../DelegateLibrary/DelegateLibrary.csproj",
+      "msbuildProject": "../DelegateLibrary/DelegateLibrary.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "DelegateLibrary >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\joydip\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "E:\\tata-elxsi-dotnet\\codes\\day-5\\DelegatesDemo\\DelegateLibrary\\DelegateLibrary.csproj": {
+              "projectPath": "E:\\tata-elxsi-dotnet\\codes\\day-5\\DelegatesDemo\\DelegateLibrary\\DelegateLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

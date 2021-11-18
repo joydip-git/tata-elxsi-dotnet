@@ -1,0 +1,12 @@
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\bin\Debug\net5.0\DelegateLibrary.deps.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\bin\Debug\net5.0\DelegateLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\bin\Debug\net5.0\ref\DelegateLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\bin\Debug\net5.0\DelegateLibrary.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\DelegateLibrary.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\DelegateLibrary.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\DelegateLibrary.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\DelegateLibrary.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\DelegateLibrary.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\DelegateLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\ref\DelegateLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegateLibrary\obj\Debug\net5.0\DelegateLibrary.pdb

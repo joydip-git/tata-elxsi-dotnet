@@ -1,16 +1,36 @@
 ﻿using System;
+using DelegateLibrary;
 
 namespace DelegatesIntro
 {
     //1. declare delegate
-    delegate void CalculationDelegate(int a, int b);
+    //delegate void CalculationDelegate(int a, int b);
 
+    /*
+    class CalculationDelegate : MulticastDelegate //:Delegate:Object
+    {
+        private Object _target;
+        private System.Reflection.MethodInfo _method;
+        private Delegate[] _invocationList;
+
+        public CalculationDelegate(object target, System.Reflection.MethodInfo method)
+        {
+            _target = target;
+            _method = method;
+        }
+        public void Invoke(int a, int b)
+        {
+            _method.Invoke(_target, new object[] { a, b });
+        }
+    }
+    */
     class Program
     {
+        //private delegate void CalculationDelegate(int a, int b);
         static void Main()
         {
             //2. create delegate instance
-            
+
             //since Add is non-static/instance method, create an instance of the Calculation class
             Calculation calculation = new Calculation();
             //pass the Add method name along with class object reference variable
@@ -27,8 +47,13 @@ namespace DelegatesIntro
             Console.WriteLine("\n\n");
 
             //multicast delegate
-            CalculationDelegate multiCast = new CalculationDelegate(calculation.Add);
-            multiCast += new CalculationDelegate(Calculation.Subtract);
+            //CalculationDelegate multiCast = new CalculationDelegate(calculation.Add);
+            //multiCast += new CalculationDelegate(Calculation.Subtract);
+            //multiCast(12, 4);
+            //CalculationDelegate multiCast = new CalculationDelegate(calculationDelegateAdd);
+            CalculationDelegate multiCast = calculationDelegateAdd;
+            multiCast += calculationDelegateSubtract;
+            //multiCast -= calculationDelegateSubtract;
             multiCast(12, 4);
         }
     }

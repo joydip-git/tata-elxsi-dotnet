@@ -14,3 +14,6 @@ E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\D
 E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\ref\DelegatesIntro.dll
 E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.pdb
 E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.genruntimeconfig.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegateLibrary.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\bin\Debug\net5.0\DelegateLibrary.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\DelegatesIntro\obj\Debug\net5.0\DelegatesIntro.csproj.CopyComplete

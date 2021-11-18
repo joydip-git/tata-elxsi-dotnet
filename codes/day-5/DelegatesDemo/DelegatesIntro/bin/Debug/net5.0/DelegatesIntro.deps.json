@@ -7,14 +7,27 @@
   "targets": {
     ".NETCoreApp,Version=v5.0": {
       "DelegatesIntro/1.0.0": {
+        "dependencies": {
+          "DelegateLibrary": "1.0.0"
+        },
         "runtime": {
           "DelegatesIntro.dll": {}
+        }
+      },
+      "DelegateLibrary/1.0.0": {
+        "runtime": {
+          "DelegateLibrary.dll": {}
         }
       }
     }
   },
   "libraries": {
     "DelegatesIntro/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DelegateLibrary/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
