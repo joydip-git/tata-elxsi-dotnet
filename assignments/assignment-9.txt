@@ -1,0 +1,40 @@
+1. create a product class (name, id,price, decsription)
+   create a category class (name, id)
+   - establish has-a relationship betwene product and category
+
+2. create a collection of unique products (product with same id can't be added in that collection)
+   create a collection of unique categories(category with same id can't be added in that collection)   
+
+Operations (LINQ)
+3. group all the products by their first letter of the name
+
+   product grouped by 'char'
+   -------------------------
+	produc1-name
+        ..........
+
+4. filter the products with price >1000
+
+5. sort the products by - a. name or b. price (based on choice from user)
+
+6. group all the products by the category name
+   
+    category-name
+   --------------------
+    product-name1
+    .....
+
+   category-name:
+ ----------------
+   Not available
+
+7. dispaly the average, maximum and minimum price of products from every category grouped by category name
+
+   category-name
+   --------------------
+    Max: 12000 Min: 100 average: 1234
+
+   category-name
+   --------------------
+    Max: 12000 Min: 100 average: 1234
+    
