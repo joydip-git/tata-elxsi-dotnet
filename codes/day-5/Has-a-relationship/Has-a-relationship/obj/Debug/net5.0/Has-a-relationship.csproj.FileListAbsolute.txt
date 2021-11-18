@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\bin\Debug\net5.0\Has-a-relationship.exe
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\bin\Debug\net5.0\Has-a-relationship.deps.json
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\bin\Debug\net5.0\Has-a-relationship.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\bin\Debug\net5.0\Has-a-relationship.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\bin\Debug\net5.0\Has-a-relationship.dll
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\bin\Debug\net5.0\ref\Has-a-relationship.dll
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\bin\Debug\net5.0\Has-a-relationship.pdb
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.dll
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\ref\Has-a-relationship.dll
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.pdb
+E:\tata-elxsi-dotnet\codes\day-5\Has-a-relationship\Has-a-relationship\obj\Debug\net5.0\Has-a-relationship.genruntimeconfig.cache
