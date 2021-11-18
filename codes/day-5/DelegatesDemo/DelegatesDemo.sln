@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegatesIntro", "Delegates
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DelegateLibrary", "DelegateLibrary\DelegateLibrary.csproj", "{FABC9E67-D9BD-4CA9-8FC5-A898D9FE0067}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadingDemo", "ThreadingDemo\ThreadingDemo.csproj", "{8060C481-DA94-4C69-BEB6-C9D42EB0D4D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp1", "WinFormsApp1\WinFormsApp1.csproj", "{299D06FD-46DD-4D3E-A5BD-CB174A21513A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{FABC9E67-D9BD-4CA9-8FC5-A898D9FE0067}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FABC9E67-D9BD-4CA9-8FC5-A898D9FE0067}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FABC9E67-D9BD-4CA9-8FC5-A898D9FE0067}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8060C481-DA94-4C69-BEB6-C9D42EB0D4D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8060C481-DA94-4C69-BEB6-C9D42EB0D4D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8060C481-DA94-4C69-BEB6-C9D42EB0D4D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8060C481-DA94-4C69-BEB6-C9D42EB0D4D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{299D06FD-46DD-4D3E-A5BD-CB174A21513A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{299D06FD-46DD-4D3E-A5BD-CB174A21513A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{299D06FD-46DD-4D3E-A5BD-CB174A21513A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{299D06FD-46DD-4D3E-A5BD-CB174A21513A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

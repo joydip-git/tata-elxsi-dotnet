@@ -1,0 +1,16 @@
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.exe
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.deps.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.runtimeconfig.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.runtimeconfig.dev.json
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\bin\Debug\net5.0\ref\ThreadingDemo.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\bin\Debug\net5.0\ThreadingDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.GeneratedMSBuildEditorConfig.editorconfig
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.AssemblyInfoInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.AssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ref\ThreadingDemo.dll
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.pdb
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.genruntimeconfig.cache
+E:\tata-elxsi-dotnet\codes\day-5\DelegatesDemo\ThreadingDemo\obj\Debug\net5.0\ThreadingDemo.csproj.AssemblyReference.cache
