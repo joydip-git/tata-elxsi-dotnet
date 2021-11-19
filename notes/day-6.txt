@@ -96,6 +96,11 @@ extra:
 anonymous type (3.0)
 extension method technique (3.0)
 
+Entity Framework Core vs. EF
+	advantages
+	dbcontext, model classes
+	code-first, db-first, model-first approach
+
 
 
 
