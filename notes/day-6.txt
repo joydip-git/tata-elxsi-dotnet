@@ -75,6 +75,12 @@ Kestrel:
 out of process
 	: 2 web servers (internal web server: Kestrel + external web server - IIS, Apache Tomcat, NgInx)
 
+services.AddMvc()
+
+services.AddControllerWithViews() (MVC web application with view)
+services.AddController() (web api type application - NO VIEW, ONLY MODEL and CONTROLLER)
+services.AddRazorPages() (Web page based application)
+
 
 
 

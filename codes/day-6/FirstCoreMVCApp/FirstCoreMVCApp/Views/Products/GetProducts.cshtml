@@ -1,0 +1,19 @@
+﻿<html>
+<head>
+    <title>Products</title>
+</head>
+<body>
+    @{
+        var id = this.ViewBag.Id;
+        var name = this.ViewBag.Name;
+        var price = this.ViewBag.Price;
+    }
+    <div>
+        Id:<span>@id</span>
+        <br />
+        Name:<span>@name</span>
+        <br />
+        Price:<span>@price</span>
+    </div>
+</body>
+</html>

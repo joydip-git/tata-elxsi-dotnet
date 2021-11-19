@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Routing;
 
 namespace FirstCoreMVCApp
 {
@@ -16,10 +17,7 @@ namespace FirstCoreMVCApp
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddMvc();
-            //services.AddAuthentication();
-            //services.AddAuthorization();
-            //services.AddCors();
+            services.AddMvc();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -32,20 +30,21 @@ namespace FirstCoreMVCApp
             }
 
             app.UseRouting();
-            //app.UseCors();
-            //app.UseMvc();
-            //app.UseAuthentication();
-            //app.UseAuthorization();
-            //app.Us
-            
 
-            app.UseEndpoints(endpoints =>
+
+            //Action<IEndpointRouteBuilder> routeBuilder = (IEndpointRouteBuilder builder) =>
+            //{
+            //    builder.MapControllerRoute("Default", "{controller}/{action}/{data1}/{data2}", new { controller = "Home", action = "Index", data1 = "", data2="" });
+            //};
+
+            Action<IEndpointRouteBuilder> routeBuilder = (IEndpointRouteBuilder builder) =>
             {
-                endpoints.MapGet("/", async context =>
-                {
-                    await context.Response.WriteAsync("Hello World!");
-                });
-            });
+                builder.MapControllerRoute("Default", "{controller}/{action}/{id}/{name}/{price}", new { controller = "Home", action = "Index", id = "", name = "", price = "" });
+            };
+
+            //"{controller}/{action}/{id?}"
+            //Action<IEndpointRouteBuilder> routeBuilder = (builder) => builder.MapDefaultControllerRoute();
+            app.UseEndpoints(routeBuilder);
         }
     }
 }

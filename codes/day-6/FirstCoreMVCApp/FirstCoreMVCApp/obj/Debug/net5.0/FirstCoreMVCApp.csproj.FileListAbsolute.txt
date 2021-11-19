@@ -20,3 +20,14 @@ E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.
 E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\ref\FirstCoreMVCApp.dll
 E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.pdb
 E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.genruntimeconfig.cache
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\bin\Debug\net5.0\FirstCoreMVCApp.Views.dll
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\bin\Debug\net5.0\FirstCoreMVCApp.Views.pdb
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.RazorAssemblyInfo.cache
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.RazorAssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.TagHelpers.input.cache
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.TagHelpers.output.cache
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.RazorCoreGenerate.cache
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\Razor\Views\Products\GetProducts.cshtml.g.cs
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.RazorTargetAssemblyInfo.cs
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.Views.pdb
+E:\tata-elxsi-dotnet\codes\day-6\FirstCoreMVCApp\FirstCoreMVCApp\obj\Debug\net5.0\FirstCoreMVCApp.csproj.CopyComplete
