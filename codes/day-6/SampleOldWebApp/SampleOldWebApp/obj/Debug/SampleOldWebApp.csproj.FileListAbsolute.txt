@@ -1,0 +1,7 @@
+E:\tata-elxsi-dotnet\codes\day-6\SampleOldWebApp\SampleOldWebApp\bin\SampleOldWebApp.dll.config
+E:\tata-elxsi-dotnet\codes\day-6\SampleOldWebApp\SampleOldWebApp\bin\SampleOldWebApp.dll
+E:\tata-elxsi-dotnet\codes\day-6\SampleOldWebApp\SampleOldWebApp\bin\SampleOldWebApp.pdb
+E:\tata-elxsi-dotnet\codes\day-6\SampleOldWebApp\SampleOldWebApp\obj\Debug\SampleOldWebApp.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-6\SampleOldWebApp\SampleOldWebApp\obj\Debug\SampleOldWebApp.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-6\SampleOldWebApp\SampleOldWebApp\obj\Debug\SampleOldWebApp.dll
+E:\tata-elxsi-dotnet\codes\day-6\SampleOldWebApp\SampleOldWebApp\obj\Debug\SampleOldWebApp.pdb

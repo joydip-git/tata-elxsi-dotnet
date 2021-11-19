@@ -1,0 +1,43 @@
+1. Data Access
+	a. ADO.NET
+	b. EF 
+2. UI
+	asp.net mvc
+		- web page based app
+
+3. API
+	asp.net mvc
+		- restful apis
+
+asp.net
+	- web page applications
+	- web service applications
+
+Resource - data
+page - get the data
+
+Model - View -* (controller/presenter/view-model)
+Model-View-Controller architecture
+
+
+global events (application specific)
+page-related events (home page)
+other control events (button)
+
+class Home:Controller
+{
+   public ViewResult Products(string id)
+   {
+	//fetching data from db 
+        // pass it to a View (cshtml)
+        return this.View();
+   }
+}
+
+send to View engine (ASP.NET/Razor view engine) cshtml-->html
+
+
+
+
+
+
