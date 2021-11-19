@@ -36,6 +36,44 @@ class Home:Controller
 
 send to View engine (ASP.NET/Razor view engine) cshtml-->html
 
+system.web.dll
+
+system.web
+system.web.mvc
+
+asp.net core:
+	- is NOT a continuation of ASP.NET 4.x framework
+	- it is a re-write of ASP.NET 4.x framework
+	- completely new framework
+	- modular, smaller
+	- open source (https://github.com/aspnet)
+	- high-performance
+	- crosss-platform
+	- cloud
+	- web app (page), API, IoT, mobile app
+	- on-premise
+
+asp.net MVC core:
+	- at the top of asp.net core, MVC framework has been added
+
+
+hosting:
+	a. in -process hosting (1 web server - iisexpress/kestrel)
+	b. out-of-process hosting
+
+
+hostbuilder:
+	a. sets up the web server
+	b. loads the host and app configs from different configuration files
+	c. configuration and logging
+
+
+Kestrel:
+	cross-platform web server
+	internet facing web server (edge server)
+
+out of process
+	: 2 web servers (internal web server: Kestrel + external web server - IIS, Apache Tomcat, NgInx)
 
 
 
