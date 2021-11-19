@@ -1,0 +1,50 @@
+﻿@*
+    @model System.Int32;
+    <html>
+        <head>
+
+        </head>
+        <body>
+            <span>@this.Model</span>
+            <br/>
+            <span>@this.ViewBag.Val</span>
+        </body>
+    </html>
+*@
+
+@model List<EmployeeApp.UserInterface.Models.Employee>
+
+<html>
+<head>
+
+</head>
+<body>
+
+    @{
+        var records = this.Model;
+    }
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Salary</th>
+                <th>Location</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var employee in records)
+            {
+                <tr>
+                    <td>@employee.EmployeeId</td>
+                    <td>@employee.EmployeeName</td>
+                    <td>@employee.EmployeeSalary</td>
+                    <td>@employee.Location</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+</body>
+</html>

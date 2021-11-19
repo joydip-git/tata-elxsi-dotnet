@@ -81,6 +81,22 @@ services.AddControllerWithViews() (MVC web application with view)
 services.AddController() (web api type application - NO VIEW, ONLY MODEL and CONTROLLER)
 services.AddRazorPages() (Web page based application)
 
+sqlexception ex = new sqlexception("");
+
+DbContext:
+	a. Manage Db connection
+	b. Configure Models and relationship between them
+	c. query the database
+	d. save the data in db
+	e. configure change tracking
+	f. caching
+	g. transcations
+
+extra:
+anonymous type (3.0)
+extension method technique (3.0)
+
+
 
 
 
