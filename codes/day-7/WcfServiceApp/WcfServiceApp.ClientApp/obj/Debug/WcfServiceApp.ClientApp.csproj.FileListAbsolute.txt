@@ -1,0 +1,7 @@
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.ClientApp\bin\Debug\WcfServiceApp.ClientApp.exe.config
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.ClientApp\bin\Debug\WcfServiceApp.ClientApp.exe
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.ClientApp\bin\Debug\WcfServiceApp.ClientApp.pdb
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.ClientApp\obj\Debug\WcfServiceApp.ClientApp.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.ClientApp\obj\Debug\WcfServiceApp.ClientApp.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.ClientApp\obj\Debug\WcfServiceApp.ClientApp.exe
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.ClientApp\obj\Debug\WcfServiceApp.ClientApp.pdb

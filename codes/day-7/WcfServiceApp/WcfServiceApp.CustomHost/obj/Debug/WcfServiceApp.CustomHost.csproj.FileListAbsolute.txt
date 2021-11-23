@@ -1,0 +1,10 @@
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\bin\Debug\WcfServiceApp.CustomHost.exe.config
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\bin\Debug\WcfServiceApp.CustomHost.exe
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\bin\Debug\WcfServiceApp.CustomHost.pdb
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\bin\Debug\WcfServiceApp.Entities.dll
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\bin\Debug\WcfServiceApp.Entities.pdb
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\obj\Debug\WcfServiceApp.CustomHost.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\obj\Debug\WcfServiceApp.CustomHost.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\obj\Debug\WcfServiceApp.CustomHost.csproj.CopyComplete
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\obj\Debug\WcfServiceApp.CustomHost.exe
+E:\tata-elxsi-dotnet\codes\day-7\WcfServiceApp\WcfServiceApp.CustomHost\obj\Debug\WcfServiceApp.CustomHost.pdb

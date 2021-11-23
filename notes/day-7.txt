@@ -87,3 +87,53 @@ service:
 
  2007 - wcf service
  >2008 - MVC web api (restful api service), MVC Core web api
+
+
+
+http://localhost:1234/CalculationService/
+client							service
+-------------------------------------------------------------------------------------
+proxy.Add					Calculation-->Add
+
+
+
+HTTP: Post, Get, Put, Delete, Patch, Options, etc....
+
+client									service
+----------------------------------------------------------------------------------------------------------------------------
+						            Route data	 controller		Action			RT
+----------------------------------------------------------------------------------------------------------------------------
+GET http://localhost:1234/Calculation/add/{val1}/{val2}    	val1, 	CalculationController	Add			int
+								val2
+
+GET http://localhost:1234/products/fetchall			---	ProductsController	GetProducts		JSON array
+GET http://localhost:1234/products/{id}				id	ProductsController	GetProductById		JSON object
+POST http://localhost:1234/products/add			   	{....}	ProductsController	AddProduct		JSON resp
+
+{
+  name:dell,
+  price:1000
+}
+PUT http://localhost:1234/products/update/{id}		   	id,{....}ProductsController    UpdateProduct	JSON resp
+
+{
+  ....
+  ....
+}
+DELETE http://localhost:1234/products/remove/{id}	    	id	ProductsController	DeleteProduct	JSON resp
+
+mapping between HTTP methods and the controller actions
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
