@@ -1,0 +1,60 @@
+ADO.NET: (some disadvnatges)
+	a. you need to interact with underlying database, such as: open, close connection etc.
+	b. convert database data into .NET objects and vice-versa
+	c. tedious process
+	d. chance of error very high
+	e. You need to change data access code based on the underlying database
+1. EF:
+	a. Open source
+	b. an ORM (object relational model/mapping)
+	c. helps you to work with data without interacting with native database, rather, by working with domain classes
+	d. focus will be on the logic to operate on data
+	e. focus will not be on handling opennig or closing of database, wiriting database specific queries, where and how the data is stored
+	f. less chance of error
+	g. underlying native database does not affect the data access code that much
+	
+EF usage:
+	a. DB first
+	b. Code First
+	c. Model First
+features:
+	a. cross-platform
+	b. model your data (domain classes/POCO (Plain old CLR Objects) to decide the schema of the table)  - EDM (Entity Data Model)
+	c. query: use LINQ against the collection of records (DbSet<T>)
+	d. change tracking
+	e. Transaction Management
+
+
+Use EF Core:
+	a. add reference to 
+		i. Microsoft.EntityFrameworkCore.SqlServer dll
+		ii. Microsoft.EntityFrameworkCore.Tools dll
+		Entity Framework Core Tools for the NuGet Package Manager Console in Visual Studio.
+		Enables these commonly used commands:
+		Add-Migration
+		Drop-Database
+		Get-DbContext
+		Get-Migration
+		Remove-Migration
+		Scaffold-DbContext
+		Script-Migration
+		Update-Database
+
+Note: if you are working with DotNet CLI tool for EF you need to add reference to:
+		iii. Microsoft.EntityFrameworkCore.Tools.DotNet (for EF tool for DotNet CLI)
+	and change the csproj file this way:
+
+	 <PackageReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-final"/> 
+	change this line to 
+	<DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.1.0-preview1-final"/>
+
+
+	
+
+	b. DbFirst approach:
+		1. open Package Manager Console in VS 2019
+		2. write the following command to auto-generate all POCO classes for the existing database and tables
+		PM> Scaffold-DbContext "server=.;database=tataelxsidb;user id=sa;password=sqlserver2017;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
+
+		Note: In case of DotNet CLI EF tool:
+		>dotnet ef dbcontext scaffold "server=.;database=tataelxsidb;user id=sa;password=sqlserver2017;" Microsoft.EntityFrameworkCore.SqlServer -o Models

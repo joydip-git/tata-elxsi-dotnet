@@ -3,6 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace EmployeeApp.UserInterface.Models
 {
@@ -12,6 +13,11 @@ namespace EmployeeApp.UserInterface.Models
             : base(options)
         {
         }
-        public DbSet<Employee> Employees { get; set; }
+        public ICollection<Employee> Employees 
+        {
+            //public ICollection<Employee> Get()
+            get;
+            set;
+        }
     }
 }
