@@ -51,10 +51,23 @@ Note: if you are working with DotNet CLI tool for EF you need to add reference t
 
 	
 
-	b. DbFirst approach:
+	DbFirst approach:
 		1. open Package Manager Console in VS 2019
 		2. write the following command to auto-generate all POCO classes for the existing database and tables
 		PM> Scaffold-DbContext "server=.;database=tataelxsidb;user id=sa;password=sqlserver2017;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models
 
 		Note: In case of DotNet CLI EF tool:
 		>dotnet ef dbcontext scaffold "server=.;database=tataelxsidb;user id=sa;password=sqlserver2017;" Microsoft.EntityFrameworkCore.SqlServer -o Models
+
+	Code first approach:
+		a. add references (see above)
+		b. create POCO and DbContext, using Data Annotations/Fluent API for comfiguring and mapping POCO etc. 
+		c. add migrartion:
+			PM> add-migration CreateLibraryDb (in package manager console)
+		Note: in case of dotnet cli ef tool:
+		> dotnet ef migrations add CreateLibraryDb
+		d. now execute the migration (this will create database and tables etc.)
+		PM> update-database [-verbose]
+
+		Note: In case of DotNet CLI EF tool:
+		>dotnet ef database update
