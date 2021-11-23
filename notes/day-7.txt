@@ -71,3 +71,19 @@ Note: if you are working with DotNet CLI tool for EF you need to add reference t
 
 		Note: In case of DotNet CLI EF tool:
 		>dotnet ef database update
+
+
+
+MVC:
+	web application (Model-View-Controller)
+	web api application (RESTful API application)
+
+
+service:
+
+ distributed/SOA:
+ <2007
+ web service, remote service, enterprise service
+
+ 2007 - wcf service
+ >2008 - MVC web api (restful api service), MVC Core web api

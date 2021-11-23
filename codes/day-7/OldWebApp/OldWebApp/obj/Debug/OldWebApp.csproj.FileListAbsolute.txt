@@ -1,0 +1,6 @@
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\OldWebApp\bin\OldWebApp.dll.config
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\OldWebApp\bin\OldWebApp.dll
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\OldWebApp\bin\OldWebApp.pdb
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\OldWebApp\obj\Debug\OldWebApp.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\OldWebApp\obj\Debug\OldWebApp.dll
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\OldWebApp\obj\Debug\OldWebApp.pdb

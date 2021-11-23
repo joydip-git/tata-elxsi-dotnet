@@ -1,0 +1,6 @@
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ClassLibrary1\bin\Debug\ClassLibrary1.dll
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.AssemblyReference.cache
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ClassLibrary1\obj\Debug\ClassLibrary1.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ClassLibrary1\obj\Debug\ClassLibrary1.dll
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ClassLibrary1\obj\Debug\ClassLibrary1.pdb

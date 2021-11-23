@@ -1,0 +1,6 @@
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+E:\tata-elxsi-dotnet\codes\day-7\OldWebApp\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
