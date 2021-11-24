@@ -11,7 +11,7 @@ restful api (MVC Web Api)
 
 Angular:
 
-1. JavaScript: single threaded
+1. JavaScript: single threaded, dynamic programming language
 2. new features in JS
 3. TypeScript
 
@@ -33,3 +33,19 @@ built at the top of the V8 engine
 all node js built-in functionalities from scratch asynchronous
 
 Hot Module Replacement (HMR)
+
+//1. variable and function hoisting
+//2. execution context
+//3. this keyword
+//4. objects in javascript
+
+1. compilation/preparation stage
+	only declarations are taken care
+2. execution stage
+
+
+ES --> JavaScript, TypeScript, VbScript, JScript, NativeScript
+2015-> ES6/ES2015
+	a. let keyword
+	b. const keyword
+	c. class, constructor, extends, super keyword

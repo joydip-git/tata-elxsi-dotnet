@@ -4,7 +4,7 @@
   "description": "a simple js app",
   "main": "index.js",
   "scripts": {
-    
+    "load":"lite-server"
   },
   "keywords": [
     "js"
