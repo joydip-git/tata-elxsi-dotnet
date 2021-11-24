@@ -1,0 +1,17 @@
+{
+  "name": "js-basics-app",
+  "version": "1.0.0",
+  "description": "a simple js app",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "joydip",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}

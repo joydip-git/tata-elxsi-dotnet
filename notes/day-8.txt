@@ -8,3 +8,28 @@ app1 (exe) --(refernce)--> app2 (library)
 web service, remote service, enterprise service
 wcf service
 restful api (MVC Web Api)
+
+Angular:
+
+1. JavaScript: single threaded
+2. new features in JS
+3. TypeScript
+
+4. SPA
+5. application artifacts
+
+6. compiltaion, run
+7. dev server
+
+JS:
+--------------------
+a. browser runtime
+b. node runtime
+
+Node JS: server-side framework
+--------------------------------------------
+a runtime for JS code to be compiled and executed
+built at the top of the V8 engine
+all node js built-in functionalities from scratch asynchronous
+
+Hot Module Replacement (HMR)
