@@ -1,0 +1,78 @@
+create a web api application using EF core (code first approach)
+
+database: productmanagementdb
+tables:
+products: productid (pk), productname, description, imagepath, rating, price, releasedate, categoryid(fk)
+categories: categoryid (pk), categoryname
+users: user id(email-pk), password, user type
+
+
+Ef core:
+1. create a DbContext type class
+2. create the POCO classes for the tables
+3. create migration
+4. create db and tables based on migration
+Note: connection string should be in appsettings.json file and should be read from there (even during migration and update database)
+
+architecture:
+Data access layer: contract and implementation
+
+business layer: contract and implementation
+
+controllers:
+ProductsController and CategoriesController and UsersController
+
+DI in entire web api application
+
+additional: when creating data access layer can use Repository pattern? 
+Note: "Repository" pattern and "Unit of Work" in .NET
+
+
+UI:
+1. login view:
+login using username and password
+
+2. registration view:
+user will be registered and type of user should be mentioned
+
+users of the application: user and admin
+
+3. products view: (both admin and user will be redirected to this view)
+
+a. a select list with category names
+b. a table with product records filtered by the category name
+	i. name, image, price, desc, delete button to delete the record
+	ii. the product should be deleted as soon as the delete button is clicked and the table should be updated (admin only)
+	iii. if you click the image then one should be redirected to another view(*) to just view the complete the details of the selected product
+	iv. if you click the name of the product, then one should be redirected to another view(**), which will be used to update the selected product (for admin only)
+
+c. a search box, where product name will be entered and as soon as the product name is entered, the below table (which is already displaying products for a category) will again be filtered and display the prodcuts matching the search criteria partially
+
+d. a select list to sort the product records in the table based on: product id, name, price, rating (by default products should be sorted based on id)
+
+4. product view:(*)
+a. view to display the selected product. an ok button the view to return to the "products view"
+b. no editable fileds should be here
+
+5. update product view: (**)
+a. will be used to update the selected product (for admin only)
+b. except the id, everything else can be updated (id field should not be editable)
+c. the update button when clicked will ask for confirmation (sure to update?) if yes then the record will be updated, otherwise not. also keep a cancel button to cancel the operation. 
+d. if you canel the operation or sucessfully update, then should be redirected to the "products view", where the updated product record is visible in the table
+e. the category name also should displayed (not edit)
+
+
+6. all views, except login and registration views, should have a dashboard at the top of every view, containing 3 links - Home, Products and Add Product. Add product is only available for admin.
+a. Home: for regular home view
+b. Proucts: to get redirected to "Products view"
+c. Add: redirects to a view for adding a new product (admin only)
+
+7. Add view:
+a. a view to add a new record with a select list at the top to display the categories. select a category to add a new record.
+b. no field for product id
+c. Add button and cancel button. the add button when clicked will ask for confirmation (sure to add?)if yes then the record will be added,otherwise not.lso keep a cancel button to cancel the operation. 
+d. d. if you canel the operation or sucessfully add, then should be redirected to the "products view", where the added product record is visible in the table
+
+Note: validations to be used in UI
+
+DI in entire UI application
