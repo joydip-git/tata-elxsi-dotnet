@@ -2,7 +2,7 @@
 
 namespace HRMSApp.ServiceLayer.Migrations
 {
-    public partial class CreateApplicationDb : Migration
+    public partial class CreateHrmsDb : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {

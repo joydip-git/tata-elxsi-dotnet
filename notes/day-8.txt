@@ -1,0 +1,10 @@
+1. EF and EF Core
+2. Code first and Db first
+3. Service
+4. Service & component-based
+
+app1 (exe) --(refernce)--> app2 (library)
+
+web service, remote service, enterprise service
+wcf service
+restful api (MVC Web Api)

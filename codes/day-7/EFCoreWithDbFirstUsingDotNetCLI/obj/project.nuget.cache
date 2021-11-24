@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JOj9dx1F2X71IL9Yt4xdK02MnJOTyKPyzzTlpDbyheqWv0kKIC2PkIEPYH4bueJdDkm+tR/llywg/SXumzc83Q==",
+  "dgSpecHash": "NRz+qKeX8YS35/6jsjwf+TZAe8zOROpMJYZLaEO6vBwGLG5IZwNVWdIeD37W07r6E1/3bpsAcV+cYErQhPdwEg==",
   "success": true,
-  "projectFilePath": "E:\\tata-elxsi-dotnet\\codes\\day-7\\EFCoreWithDbFirstUsingDotNetCLI\\EFCoreWithDbFirstUsingDotNetCLI.csproj",
+  "projectFilePath": "e:\\tata-elxsi-dotnet\\codes\\day-7\\EFCoreWithDbFirstUsingDotNetCLI\\EFCoreWithDbFirstUsingDotNetCLI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\joydip\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\joydip\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

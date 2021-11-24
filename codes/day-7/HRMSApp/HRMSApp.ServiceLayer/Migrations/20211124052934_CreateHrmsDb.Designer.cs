@@ -9,8 +9,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace HRMSApp.ServiceLayer.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20211123102352_CreateApplicationDb")]
-    partial class CreateApplicationDb
+    [Migration("20211124052934_CreateHrmsDb")]
+    partial class CreateHrmsDb
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

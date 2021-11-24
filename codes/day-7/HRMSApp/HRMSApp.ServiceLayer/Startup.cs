@@ -9,25 +9,42 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Diagnostics;
 
 namespace HRMSApp.ServiceLayer
 {
     public class Startup
     {
+        IConfiguration configuration;
+        //public Startup()
+        //{
+
+        //}
+
+        public Startup(IConfiguration configuration)
+        {
+            this.configuration = configuration;
+        }
         // This method gets called by the runtime. Use this method to add services to the container.
         // For more information on how to configure your application, visit https://go.microsoft.com/fwlink/?LinkID=398940
 
-        public IConfiguration Configuration { get; set; }
+        //public IConfiguration Configuration => this.configuration;
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
-            services.AddDbContext<ApplicationDbContext>(ServiceLifetime.Singleton);
+            var conStr = this.configuration.GetConnectionString("applicationDbConstr");
+            Console.WriteLine(conStr);
+            services.AddDbContext<ApplicationDbContext>((options) =>
+            {
+                options.UseSqlServer(conStr);
+            }, ServiceLifetime.Singleton);
             services.AddSingleton<IApplicationDao<Employee>, EmployeeDao>();
-            services.AddSingleton<IApplicationBO<Employee>, EmployeeBO>();            
+            services.AddSingleton<IApplicationBO<Employee>, EmployeeBO>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
