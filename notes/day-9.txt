@@ -86,3 +86,46 @@ Angular
 
 client-side library:
 React
+
+webapck, browserify: bundler
+
+
+Angular:
+a. create SPA
+b. components are the building (view[partial html]+code[ts/js]) blocks
+c. routing feature
+d. mechanism to pass data between view and code: declarative programming style (data and event binding)
+e. mvc architecture 
+f. reusable piece of code (service) and get the object of the service dependency injected
+g. offers nice DI system
+h. piping mechanism: pipes (transformers)
+i. write code and then segregate them in logical modules
+
+angular cli tool: ng
+installation: > npm i @angular/cli -g
+
+build, serve: either prod bundle or dev bundle is created by webpack
+serve: after dev bundle is created, webpack-dev-server is used as dev server
+test: karma tool
+	
+
+angular components:
+a. routed components
+b. nested components
+
+attributes: class
+
+[TestClassAttribute]
+class A
+{
+	[TestMethodAttribute]
+	public void Test1()
+	{
+	}
+}
+
+
+class TestClassAttribute
+{
+}
+
