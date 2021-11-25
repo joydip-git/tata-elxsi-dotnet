@@ -113,6 +113,15 @@ angular components:
 a. routed components
 b. nested components
 
+data binding: some proerty in the class is bound to some control in view
+code --> view
+syntax: interpolation=> {{ <property-name> }}
+        property binding <tag-name [html-att-name]='<prop-name>'></tag-name>
+
+view --> code
+event binding
+<tag-name (event-name)='methodName(arg)'></tag-name>
+
 attributes: class
 
 [TestClassAttribute]

@@ -9,7 +9,7 @@ if (environment.production) {
 }
 
 const platform: PlatformRef = platformBrowserDynamic();
-console.log(platform)
+//console.log(platform)
 platform.bootstrapModule(AppModule)
-  .then(m => console.log(m))
+  // .then(m => console.log(m))
   .catch(err => console.error(err));

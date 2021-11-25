@@ -1,0 +1,21 @@
+<table *ngIf='employees && employees.length>0;else alternate'>
+    <thead>
+        <tr>
+            <td>Id</td>
+            <td>Name</td>
+            <td>Salary</td>
+            <td>Location</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let e of employees">
+            <td>{{ e.Employeeid }}</td>
+            <td>{{ e.Employeename }}</td>
+            <td>{{ e.Employeesalary }}</td>
+            <td>{{ e.Location }}</td>
+        </tr>
+    </tbody>
+</table>
+<ng-template #alternate>
+    <div>No records to display</div>
+</ng-template>
