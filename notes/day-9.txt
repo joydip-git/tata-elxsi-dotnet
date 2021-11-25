@@ -75,4 +75,14 @@ interface IA{}
 3. asynchronous and promise (node js/browser async), async and wait
 4. application and tools
 
+SPA
+---------------------------
+single HTML and many partial HTML file with inly content and TS/JS files with event handling or other codes related to that file
+
+components:
+
+client-side framework:
 Angular
+
+client-side library:
+React
