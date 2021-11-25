@@ -1,0 +1,28 @@
+Recap:
+1. JS and execution cycle
+2. JS features (new)
+	a. let , const keywords
+	b. spread and rest operator
+	c. object destructuring
+	d. class, constructor, super, exetends keywords
+	e. string template/interpolation (`${}`)
+	f. arrow function
+
+3. JS features (regular)
+	a. array
+	b. var keyword
+	c. variable and function hoisting
+	d. object creation
+		i. object literal syntax
+		ii. constructor function and new keyword
+		iii. class and new keyword
+	e. objects characterestics: iterable, properties can be accessed through []
+	f. proto property of object
+	g. prototype object for a function & prototype property of the function to access the object
+	h. callback mechanism
+
+1. typescript
+2. asynchronous and promise (node js/browser async), async and wait
+3. application and tools
+
+Angular

@@ -1,0 +1,8 @@
+1. create two types: developer[name,id,basic,da,hra, incentive] and hr [name,id,basic,da,hra, gratuity]
+2. do you need base class??? (Employee)
+3. create some objects manually with hard coded data (developer and hr)
+4. add the objects in an array
+5. iterate through the same and display the salary
+6. sort the employees based on choice: id(1), name(2), salary(3)
+7. filter the records in the array by salary>1000 and display those employees
+8. search for employee(s) from the array based on name
