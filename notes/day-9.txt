@@ -21,8 +21,45 @@ Recap:
 	g. prototype object for a function & prototype property of the function to access the object
 	h. callback mechanism
 
-1. typescript
-2. asynchronous and promise (node js/browser async), async and wait
-3. application and tools
+
+1. modules in JS/TS etc.
+	module: a file with exportable members
+	module format: 
+	a. Common JS [default format to define modules in Node JS]
+	b. AMD (asynchronous module definition)
+		define([],function(){
+                })
+		require([])
+	c. UMD (Universal module definition)
+	d. ES6 
+
+	module loader:
+	a. common js loader (Node runtime has this by default)
+	b. require js (can be use in browser and node)
+	c. systemjs
+
+1. module should be converted to AMD format to be understood by requirejs
+2. all latest JS features to be converted to old version of JS (<ES6)
+
+code transpilation: [converting latest JS codes in lower version (<ES6), such as ES2, 3]
+transpiler: 
+a. babel: 
+	core packages: @babel/core, @babel/cli
+	install: >npm i @babel/core @babel/cli -D
+
+	presets:
+	@babel/preset-env: for ES2015+ syntax transformation
+	install: >npm i @babel/preset-env -D
+
+	plugins: ES6 module format to AMD format conversion
+	@babel/plugin-transform-modules-amd
+	install: > npm i @babel/plugin-transform-modules-amd -D
+
+b. tsc
+
+
+2. typescript
+3. asynchronous and promise (node js/browser async), async and wait
+4. application and tools
 
 Angular
