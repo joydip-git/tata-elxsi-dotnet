@@ -59,6 +59,19 @@ b. tsc
 
 
 2. typescript
+	a. superset of javascript
+	b. typification
+	c. compile time type checking
+
+let x:number=20;
+function add(a:number, b:number):number{
+	return (a+b)
+}
+
+add(12,"joy");
+
+interface IA{}
+
 3. asynchronous and promise (node js/browser async), async and wait
 4. application and tools
 
