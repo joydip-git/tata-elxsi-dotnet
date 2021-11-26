@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Employee } from '../../models/employee.model';
+import { ResponseMessage } from '../../models/responsemessage.model';
 import { EmployeeService } from '../../services/employee.service';
 
 @Component({
@@ -10,16 +11,40 @@ import { EmployeeService } from '../../services/employee.service';
 })
 export class EmployeeListComponent {
 
-  employees: Employee[] = [];
+  employees?: Employee[];
+  filterText = ''
+  responseResult?: ResponseMessage;
   constructor(private empSvc: EmployeeService) {
     // (document.getElementsByName('button')[0]).addEventListener("click", this.getEmployees)
   }
-  getEmployees() {
+
+  // updateFilterText(newText: string) {
+  //   console.log(newText)
+  //   this.filterText = newText
+  // }
+
+  private getDataFromServer() {
     this.empSvc
       .fetcAllEmployee()
       .subscribe(
         (data: Employee[]) => {
           this.employees = data
+          setTimeout(() => {
+            this.responseResult = undefined
+          }, 1000)
+        }
+      )
+  }
+  getEmployees() {
+    this.getDataFromServer()
+  }
+  deleteRecord(id: number) {
+    this.empSvc
+      .deleteEmployee(id)
+      .subscribe(
+        (result) => {
+          this.responseResult = result
+          this.getDataFromServer()
         }
       )
   }

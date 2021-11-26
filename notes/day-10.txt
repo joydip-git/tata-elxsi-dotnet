@@ -69,4 +69,26 @@ reactive extensions
 observable
 Reactive extensions for JS (rxjs)
 
+pipe:
+e.employeesalary|currency:'INR'
+
+data|<pipe-name>:'optional-additional-arg1':'optional-additional-arg2'.......
+
+e.employeename|uppercase
+
+@Pipe({
+ name:'uppercase'
+})
+class UppercasePipe implements PipeTransform{
+	transform(value:any,...args:any[]):any{
+		return ;
+	}
+}
+
+module file
+@NgModule({ declarations:[UppercasePipe], exports:[UppercasePipe]})
+
+
+
+
 

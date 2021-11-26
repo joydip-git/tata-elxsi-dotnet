@@ -1,6 +1,21 @@
 <p>
     <button class="btn btn-primary" (click)="getEmployees()">Load</button>
 </p>
+<div>
+    <div class="row">
+        <div class="col-md-4">
+            Filter By:
+        </div>
+    </div>
+    <div class="col-md-6">
+        <!-- <input type="text" name="txtFilter" [value]="filterText" (change)="updateFilterText(filter.value)" #filter> -->
+        <!--ngModel directive creates an object of FormControl class -->
+        <input type="text" name="txtFilter" [(ngModel)]="filterText">
+    </div>
+    <span>
+        Filtered By:&nbsp;{{filterText}}
+    </span>
+</div>
 <div class="table-responsive marginStyle">
     <table *ngIf="employees && employees.length>0" class="table">
         <thead>
@@ -9,10 +24,11 @@
                 <td>Name</td>
                 <td>Salary</td>
                 <td>Location</td>
+                <td>Delete</td>
             </tr>
         </thead>
         <tbody>
-            <tr *ngFor="let e of employees">
+            <tr *ngFor="let e of employees|employeefilter:filterText">
                 <td>
                     <a>
                         {{ e.employeeid }}
@@ -20,14 +36,19 @@
                 </td>
                 <td>
                     <a>
-                        {{ e.employeename }}
+                        {{ e.employeename|uppercase }}
                     </a>
                 </td>
-                <td>{{ e.employeesalary }}</td>
+                <td>{{ e.employeesalary|currency:'INR' }}</td>
                 <td>{{ e.location }}</td>
+                <td><button class="btn btn-danger" (click)="deleteRecord(e.employeeid)">Delete</button></td>
             </tr>
         </tbody>
     </table>
+    <br />
+    <span>
+        {{ responseResult?responseResult.message:'' }}
+    </span>
 </div>
 <ng-template #alternate>
     <div>No records to display</div>

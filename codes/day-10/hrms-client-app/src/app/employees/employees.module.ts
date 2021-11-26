@@ -4,19 +4,23 @@ import { EmployeeListComponent } from './components/employee-list/employee-list.
 import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { EmployeeService } from './services/employee.service';
 import { HttpClientModule } from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
+import { EmployeesPipe } from './pipes/employees.pipe';
 
 
 
 @NgModule({
   declarations: [
     EmployeeListComponent,
-    AddEmployeeComponent
+    AddEmployeeComponent,
+    EmployeesPipe
   ],
   exports: [EmployeeListComponent],
   imports: [
     CommonModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
-  providers:[EmployeeService]
+  providers: [EmployeeService]
 })
 export class EmployeesModule { }

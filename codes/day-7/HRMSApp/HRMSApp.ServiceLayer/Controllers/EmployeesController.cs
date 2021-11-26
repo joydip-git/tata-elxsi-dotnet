@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace HRMSApp.ServiceLayer.Controllers
 {
-    
+
     [Route("api/[controller]")]
     [ApiController]
     public class EmployeesController : ControllerBase
@@ -50,7 +50,30 @@ namespace HRMSApp.ServiceLayer.Controllers
         {
             try
             {
-                return Ok(this._employeeBo.InsertRecord(employee));
+                int result = this._employeeBo.InsertRecord(employee);
+                return this.Created("http://localhost:41723/api/Employees/add", new { statuscode = 201, message = $"{result} record added" });
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
+        [HttpDelete]
+        [Route("delete/{id}")]
+        //http://localhost:41723/api/Employees/delete/1
+        public IActionResult Remove(Nullable<int> id)
+        {
+            try
+            {
+                if (id.HasValue)
+                {
+                    var res = this._employeeBo.RemoveRecord(id.Value);
+                    return Ok(new { statuscode = 200, message = $"{res} record deleted" });
+                }
+                else
+                    return BadRequest("no id found in the request");
+
             }
             catch (Exception ex)
             {

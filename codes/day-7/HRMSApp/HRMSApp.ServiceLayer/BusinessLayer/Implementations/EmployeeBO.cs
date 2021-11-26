@@ -72,7 +72,15 @@ namespace HRMSApp.ServiceLayer.BusinessLayer.Implementations
 
         public int RemoveRecord(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                return this._employeeDao.Delete(id);
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
         }
     }
 }

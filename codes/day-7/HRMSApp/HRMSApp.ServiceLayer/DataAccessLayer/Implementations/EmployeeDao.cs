@@ -12,7 +12,7 @@ namespace HRMSApp.ServiceLayer.DataAccessLayer.Implementations
 
         public EmployeeDao() { }
 
-        public EmployeeDao(ApplicationDbContext dbContext) 
+        public EmployeeDao(ApplicationDbContext dbContext)
         {
             this._dbContext = dbContext;
         }
@@ -32,7 +32,23 @@ namespace HRMSApp.ServiceLayer.DataAccessLayer.Implementations
 
         public int Delete(int id)
         {
-            throw new NotImplementedException();
+            try
+            {
+                var found = this._dbContext.Employees.Find(id);
+                if (found != null)
+                {
+                    this._dbContext.Employees.Remove(found);
+                    return this._dbContext.SaveChanges();
+                }
+                else
+                {
+                    throw new Exception("record not found");
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
 
         public List<Employee> GetAll()
