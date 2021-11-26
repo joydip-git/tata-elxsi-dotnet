@@ -1,0 +1,12 @@
+table > thead {
+  background-color: burlywood;
+}
+p {
+  text-align: center;
+  margin: 10px;
+}
+.marginStyle {
+  margin: 80px;
+  border: 0px solid blue;
+  border-radius: 5px;
+}

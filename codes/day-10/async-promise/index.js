@@ -44,6 +44,12 @@ function getData() {
         }
     )
 }
+
+async function getDataAsync() {
+    const jsonData = await fetch('http://localhost:41723/api/Employees/fetchall')
+    const jsData = await jsonData.json()
+    return jsData;
+}
 function add(a, b) {
     return (a + b)
 }
@@ -70,10 +76,14 @@ function add(a, b) {
     console.log(data)
 })();
 
-getData()
-    .then(
-        (employees) => console.log(employees),
-        (er) => console.log(er)
-    )
+(async function () {
+    const data = await getDataAsync()
+    console.log(data)
+})();
+// getData()
+//     .then(
+//         (employees) => console.log(employees),
+//         (er) => console.log(er)
+//     )
 const addRes = add(12, 3)
 console.log(addRes)

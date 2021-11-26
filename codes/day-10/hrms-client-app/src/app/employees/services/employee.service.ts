@@ -1,6 +1,8 @@
 import { Injectable } from "@angular/core";
-import { HttpClient } from '@angular/common/http'
+import { HttpClient, HttpResponse } from '@angular/common/http'
 import { environment } from "../../../environments/environment";
+import { Employee } from "../models/employee.model";
+import { map, Observable } from "rxjs";
 
 //@Injectable({ providedIn: "root" })
 
@@ -12,10 +14,15 @@ export class EmployeeService {
     }
 
     addEmployee(obj: any) {
-        this.http.post(`${environment.employeeBaseUrl}\add`, obj)
+        this.http.post(`${environment.employeeBaseUrl}/add`, obj)
     }
 
-    fetcAllEmployee() {
-        this.http.get(`${environment.employeeBaseUrl}\fetchall`)
+    fetcAllEmployee(): Observable<Employee[]> {
+        const data: Observable<object>
+            = this.http
+                .get(`${environment.employeeBaseUrl}/fetchall`)
+        return data.pipe(
+            map(d => <Employee[]>d)
+        )
     }
 }
