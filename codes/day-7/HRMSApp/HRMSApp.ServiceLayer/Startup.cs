@@ -15,6 +15,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Diagnostics;
+using Microsoft.AspNetCore.Cors.Infrastructure;
 
 namespace HRMSApp.ServiceLayer
 {
@@ -36,6 +37,7 @@ namespace HRMSApp.ServiceLayer
         //public IConfiguration Configuration => this.configuration;
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors();
             services.AddControllers();
             var conStr = this.configuration.GetConnectionString("applicationDbConstr");
             Console.WriteLine(conStr);
@@ -55,6 +57,12 @@ namespace HRMSApp.ServiceLayer
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseCors(builder =>
+            {
+                builder.AllowAnyOrigin();
+                builder.AllowAnyMethod();
+                builder.AllowAnyHeader();
+            });
             app.UseRouting();
             app.UseAuthorization();
 

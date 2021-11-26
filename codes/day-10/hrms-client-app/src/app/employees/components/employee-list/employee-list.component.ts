@@ -10,6 +10,9 @@ import { EmployeeService } from '../../services/employee.service';
 export class EmployeeListComponent {
 
   constructor(private empSvc: EmployeeService) {
-
+    // (document.getElementsByName('button')[0]).addEventListener("click", this.getEmployees)
+  }
+  getEmployees() {
+    this.empSvc.fetcAllEmployee()
   }
 }
