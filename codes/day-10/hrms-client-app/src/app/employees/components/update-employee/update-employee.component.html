@@ -1,11 +1,11 @@
-<form class="form" ngForm (submit)="submitData(frm.value)" #frm="ngForm">
+<form class="form" ngForm (submit)="submitData(frm.value)" #frm="ngForm" *ngIf="employeeInfo">
 
     <div class="form-group">
         <label for="employeename">
             Name:
         </label>
         <div class="form-control">
-            <input type="text" name="employeename" id="employeename" ngModel />
+            <input type="text" name="employeename" id="employeename" [(ngModel)]="employeeInfo.employeename" />
         </div>
     </div>
 
@@ -14,7 +14,7 @@
             Salary:
         </label>
         <div class="form-control">
-            <input type="text" name="employeesalary" id="employeesalary" ngModel />
+            <input type="text" name="employeesalary" id="employeesalary" [(ngModel)]="employeeInfo.employeesalary" />
         </div>
     </div>
 
@@ -23,7 +23,7 @@
             Location:
         </label>
         <div class="form-control">
-            <input type="text" name="location" id="location" ngModel />
+            <input type="text" name="location" id="location" [(ngModel)]="employeeInfo.location" />
         </div>
     </div>
 

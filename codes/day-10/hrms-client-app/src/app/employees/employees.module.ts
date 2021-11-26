@@ -6,6 +6,9 @@ import { EmployeeService } from './services/employee.service';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { EmployeesPipe } from './pipes/employees.pipe';
+import { EmployeesRoutingModule } from './employees-routing.module';
+import { ViewEmployeeComponent } from './components/view-employee/view-employee.component';
+import { UpdateEmployeeComponent } from './components/update-employee/update-employee.component';
 
 
 
@@ -13,13 +16,16 @@ import { EmployeesPipe } from './pipes/employees.pipe';
   declarations: [
     EmployeeListComponent,
     AddEmployeeComponent,
-    EmployeesPipe
+    EmployeesPipe,
+    ViewEmployeeComponent,
+    UpdateEmployeeComponent
   ],
   exports: [EmployeeListComponent],
   imports: [
     CommonModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    EmployeesRoutingModule
   ],
   providers: [EmployeeService]
 })

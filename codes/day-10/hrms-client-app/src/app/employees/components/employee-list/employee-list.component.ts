@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { Employee } from '../../models/employee.model';
 import { ResponseMessage } from '../../models/responsemessage.model';
 import { EmployeeService } from '../../services/employee.service';
@@ -9,13 +9,16 @@ import { EmployeeService } from '../../services/employee.service';
   styleUrls: ['./employee-list.component.css'],
   //providers: [EmployeeService]
 })
-export class EmployeeListComponent {
+export class EmployeeListComponent implements OnInit {
 
   employees?: Employee[];
   filterText = ''
   responseResult?: ResponseMessage;
   constructor(private empSvc: EmployeeService) {
     // (document.getElementsByName('button')[0]).addEventListener("click", this.getEmployees)
+  }
+  ngOnInit(): void {
+    this.getDataFromServer()
   }
 
   // updateFilterText(newText: string) {
@@ -35,9 +38,7 @@ export class EmployeeListComponent {
         }
       )
   }
-  getEmployees() {
-    this.getDataFromServer()
-  }
+
   deleteRecord(id: number) {
     this.empSvc
       .deleteEmployee(id)

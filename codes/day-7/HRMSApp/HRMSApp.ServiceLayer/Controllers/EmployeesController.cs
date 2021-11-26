@@ -80,5 +80,29 @@ namespace HRMSApp.ServiceLayer.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        [HttpGet]
+        [Route("fetch/{id}")]
+        public ActionResult GetEmployee(int? id)
+        {
+            try
+            {
+                if (id.HasValue)
+                {
+                    var res = this._employeeBo.FetchRecord(id.Value);
+                    if (res == null)
+                        return NotFound(new { statuscode = 500, message = $"no record found" });
+                    else
+                        return Ok(res);
+                }
+                else
+                    return BadRequest("no id found in the request");
+
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
     }
 }

@@ -88,6 +88,28 @@ class UppercasePipe implements PipeTransform{
 module file
 @NgModule({ declarations:[UppercasePipe], exports:[UppercasePipe]})
 
+Route					Component
+-------------------------------------------------------------------
+/					Home
+/home					Home
+/something-else				Pagenotfound
+/add					Add
+/employees				EmployeeList
+/employees/view/{id}			ViewEmployee
+
+Route: path, component
+Routes=> Route[]
+RouterModule
+Router engine--> child routes, app level routes
+
+router-outlet => any routed component gets displayed
+routerLink => attribute directive 
+
+ActivatedRoute: current route information
+
+x-> OnX -> ngOnX
+
+
 
 
 

@@ -29,6 +29,11 @@ export class EmployeeService {
         )
     }
 
+    fetchEmployee(id: number): Observable<Employee> {
+        return this.http.get(`${environment.employeeBaseUrl}/fetch/${id}`)
+        .pipe(map(resp => <Employee>resp));
+    }
+
     deleteEmployee(id: number): Observable<ResponseMessage> {
         return this.http.delete(`${environment.employeeBaseUrl}/delete/${id}`).pipe(
             map(resp => <ResponseMessage>resp)
@@ -36,5 +41,11 @@ export class EmployeeService {
     }
     searchEmployees(employees: Employee[], searchText: string): Employee[] {
         return employees.filter(e => e.employeename.toLocaleLowerCase().indexOf(searchText.toLocaleLowerCase()) !== -1);
+    }
+
+    updateEmployee(obj:Employee){
+        return this.http.put(`${environment.employeeBaseUrl}/update`, obj).pipe(
+            map(resp => <ResponseMessage>resp)
+        );
     }
 }

@@ -1,6 +1,3 @@
-<p>
-    <button class="btn btn-primary" (click)="getEmployees()">Load</button>
-</p>
 <div>
     <div class="row">
         <div class="col-md-4">
@@ -30,14 +27,15 @@
         <tbody>
             <tr *ngFor="let e of employees|employeefilter:filterText">
                 <td>
-                    <a>
+                    <div [routerLink]="['/employees/view',e.employeeid]">
                         {{ e.employeeid }}
-                    </a>
+                    </div>
+
                 </td>
                 <td>
-                    <a>
+                    <div [routerLink]="['/employees/update',e.employeeid]">
                         {{ e.employeename|uppercase }}
-                    </a>
+                    </div>
                 </td>
                 <td>{{ e.employeesalary|currency:'INR' }}</td>
                 <td>{{ e.location }}</td>
