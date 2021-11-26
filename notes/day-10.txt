@@ -1,0 +1,67 @@
+1. service and dependency injection
+2. making restful api calls using HttpClient
+3. component lifecycle events
+4. pipes
+5. routing
+6. nested components and interaction between parent and nested component
+7. forms
+
+recap:
+--------------------
+what is angular?
+what are it's features?
+advantages
+execution of angular
+modular structure of angular (NgModule)
+	imports, exports, declarations, providers, bootstrap
+
+decorator: @Component(), @NgModule()
+
+data binding:
+
+code-->view
+a. interpolation
+b. property binding
+
+view-->code
+c. event binding
+
+directives:
+	a. component directives: @Component()
+	b. structural directive: *ngIf, *ngIfElse, *ngFor
+	c. behavioral directive: ngClass, ngStyle
+
+components:
+	a. routed
+	
+	b. nested: component is used like a custom Html tag and nested in another tag, for this there should be value for 'selector' property in the object passed to @Component() decorator
+
+	@Component({ selector: 'app-something'})
+	class SomethingComponent{}
+
+	index.html
+	<body>
+		<div><app-root></app-root></div>
+	</body>
+
+	app-root:AppComponent class
+	<app-employees></app-employees>
+
+Angular Cli tool: ng
+
+service: 
+	a. reusable class
+	b. it's object can be dependency injected. Register the service at 
+		i. at artifact level (component/service/directive/pipe)
+		ii. child module (feature module)
+		iii. root module (Application)
+	c. @Injectable() decorator is used at the top of the service to indicate, that this service is dependent on some other service (dependency injectio of other service is required in this service)
+	
+	
+HttpClient: built-in service class and is used to make RESTful API calls uisng that class's methods (like post(), get(), put(), delete(),....)
+
+class Component extends Injectable{
+   constructor({}){
+   }
+}
+
